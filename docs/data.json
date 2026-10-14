@@ -1,6 +1,6 @@
 {
-"updated": "2026-10-14T13:05+00:00",
-"market_open": false,
+"updated": "2026-10-14T17:43+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -107,7 +107,7 @@
 "days": 3,
 "type": "PDUFA",
 "name": "Phentolamine ophthalmic solution 0.75%",
-"cap": 386028618.71999997,
+"cap": 352750289.52000004,
 "runway": null,
 "median_move": null,
 "url": "https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic"
@@ -119,7 +119,7 @@
 "days": 3,
 "type": "PDUFA",
 "name": "MR-141 (phentolamine ophthalmic solution 0.75%)",
-"cap": 20146283754.559998,
+"cap": 19813192404.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic"
@@ -143,12 +143,48 @@
 "days": 12,
 "type": "PDUFA",
 "name": "Bepirovirsen - (B-Well)",
-"cap": 94004937829.08,
+"cap": 92702652884.73001,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/GSK-bepirovirsen"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"ATH Breakout Watch": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-14T17:41"
+},
+"New 52W High (confirmed)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-14T17:42"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-14T17:42"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-14T17:42"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-14T17:42"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-14T17:42"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-14T17:43"
+}
+}
 }

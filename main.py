@@ -21,6 +21,7 @@ from apscheduler.triggers.cron import CronTrigger
 from sniper import config
 from sniper.engine import Engine, us_market_open
 
+(config.ROOT / "data").mkdir(exist_ok=True)
 logging.basicConfig(
     level=config.LOG_LEVEL,
     format="%(asctime)s %(levelname)-7s %(name)s: %(message)s",

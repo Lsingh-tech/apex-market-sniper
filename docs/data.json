@@ -1,0 +1,201 @@
+{
+"updated": "2026-10-14T07:45+00:00",
+"market_open": false,
+"counts": {
+"breakout": 0,
+"undervalued": 0,
+"exhaustion": 0,
+"badnews": 0,
+"catalyst": 4,
+"filing": 0
+},
+"modules": {
+"breakout": [],
+"undervalued": [],
+"exhaustion": [],
+"badnews": [],
+"catalyst": [
+{
+"ticker": "RHHBY",
+"price": null,
+"score": 85,
+"direction": "WATCH",
+"headline": "RHHBY FDA catalyst T-1 \u00b7 2026-10-15",
+"reasons": [
+"PDUFA: Enspryng (satralizumab) - (thyroid eye disease)",
+"Roche Holding AG"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/RHHBY-enspryng",
+"https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-14T07:44:54.117776"
+},
+{
+"ticker": "IDWEEK",
+"price": null,
+"score": 75,
+"direction": "WATCH",
+"headline": "IDWEEK FDA catalyst T-7 \u00b7 2026-10-21",
+"reasons": [
+"Conference: IDSA/SHEA/HIVMA IDWeek",
+"IDSA/SHEA/HIVMA IDWeek"
+],
+"links": [
+"https://www.pdufa.bio/conference/IDWeek"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-14T07:44:54.123975"
+},
+{
+"ticker": "ECTRIMS",
+"price": null,
+"score": 75,
+"direction": "WATCH",
+"headline": "ECTRIMS FDA catalyst T-7 \u00b7 2026-10-21",
+"reasons": [
+"Conference: Joint ACTRIMS-ECTRIMS Meeting",
+"Joint ACTRIMS-ECTRIMS Meeting"
+],
+"links": [
+"https://www.pdufa.bio/conference/ECTRIMS"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-14T07:44:54.122022"
+},
+{
+"ticker": "ASN",
+"price": null,
+"score": 75,
+"direction": "WATCH",
+"headline": "ASN FDA catalyst T-7 \u00b7 2026-10-21",
+"reasons": [
+"Conference: ASN Kidney Week",
+"ASN Kidney Week"
+],
+"links": [
+"https://www.pdufa.bio/conference/ASN"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-14T07:44:54.120102"
+}
+],
+"filing": []
+},
+"catalysts": [
+{
+"ticker": "RHHBY",
+"company": "Roche Holding AG",
+"date": "2026-10-15",
+"days": 1,
+"type": "PDUFA",
+"name": "Enspryng (satralizumab) - (thyroid eye disease)",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.pdufa.bio/pdufa/RHHBY-enspryng"
+},
+{
+"ticker": "IRD",
+"company": "Opus Genetics, Inc.",
+"date": "2026-10-17",
+"days": 3,
+"type": "PDUFA",
+"name": "Phentolamine ophthalmic solution 0.75%",
+"cap": 386028618.71999997,
+"runway": null,
+"median_move": null,
+"url": "https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic"
+},
+{
+"ticker": "VTRS",
+"company": "Viatris Inc.",
+"date": "2026-10-17",
+"days": 3,
+"type": "PDUFA",
+"name": "MR-141 (phentolamine ophthalmic solution 0.75%)",
+"cap": 20146283754.559998,
+"runway": null,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic"
+},
+{
+"ticker": "ASN",
+"company": "ASN Kidney Week",
+"date": "2026-10-21",
+"days": 7,
+"type": "Conference",
+"name": "ASN Kidney Week",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.pdufa.bio/conference/ASN"
+},
+{
+"ticker": "ECTRIMS",
+"company": "Joint ACTRIMS-ECTRIMS Meeting",
+"date": "2026-10-21",
+"days": 7,
+"type": "Conference",
+"name": "Joint ACTRIMS-ECTRIMS Meeting",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.pdufa.bio/conference/ECTRIMS"
+},
+{
+"ticker": "IDWEEK",
+"company": "IDSA/SHEA/HIVMA IDWeek",
+"date": "2026-10-21",
+"days": 7,
+"type": "Conference",
+"name": "IDSA/SHEA/HIVMA IDWeek",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.pdufa.bio/conference/IDWeek"
+},
+{
+"ticker": "ESMO",
+"company": "European Society for Medical Oncology Congress",
+"date": "2026-10-23",
+"days": 9,
+"type": "Conference",
+"name": "European Society for Medical Oncology Congress",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.pdufa.bio/conference/ESMO"
+},
+{
+"ticker": "PHAR",
+"company": "Pharming Group N.V.",
+"date": "2026-10-24",
+"days": 10,
+"type": "PDUFA",
+"name": "Joenja (leniolisib) - paediatric APDS",
+"cap": 764757629.8199999,
+"runway": null,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/PHAR"
+},
+{
+"ticker": "GSK",
+"company": "GSK plc",
+"date": "2026-10-26",
+"days": 12,
+"type": "PDUFA",
+"name": "Bepirovirsen - (B-Well)",
+"cap": 94004937829.08,
+"runway": null,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/GSK-bepirovirsen"
+}
+],
+"scorecard": []
+}

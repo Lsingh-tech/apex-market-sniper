@@ -1,0 +1,50 @@
+name: APEX Market Sniper
+
+on:
+  schedule:
+    # All times UTC. Covers 07:00 UK pre-market (06:00 UTC in BST, 07:00 UTC in GMT),
+    # the US cash session (13:30-21:00 UTC across DST), and 16:30 NY post-close.
+    - cron: "0,15,30,45 6-7 * * 1-5"
+    - cron: "*/15 13-22 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sniper
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run one scanner pass
+        env:
+          FINVIZ_AUTH: ${{ secrets.FINVIZ_AUTH }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          PDUFA_API_KEY: ${{ secrets.PDUFA_API_KEY }}
+          EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+          GROK_DAILY_CAP: "60"
+        run: python main.py cron
+
+      - name: Persist state (db + dashboard data)
+        run: |
+          git config user.name "sniper-bot"
+          git config user.email "sniper-bot@users.noreply.github.com"
+          git add -f data/sniper.db data/grok_budget.json docs/data.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "scan $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase --autostash || true
+          git push

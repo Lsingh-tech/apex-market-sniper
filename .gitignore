@@ -1,0 +1,8 @@
+.env
+venv/
+__pycache__/
+*.pyc
+data/sniper.log
+data/service.log
+# state files are committed by the workflow on purpose:
+# data/sniper.db, data/grok_budget.json, docs/data.json

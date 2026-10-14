@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>APEX Market Sniper</title>
+<meta name="description" content="Ranked US stock setups: breakouts, value with insider buying, exhaustion, bad news, FDA catalysts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #ffffff;
+    --ink: #1b1f24;
+    --ink-2: #5b6470;
+    --rule: #e6e8eb;
+    --rule-2: #f2f3f5;
+    --long: #00a564;
+    --short: #d73741;
+    --watch: #b7791f;
+    --long-wash: #e7f6ef;
+    --short-wash: #fbe9ea;
+    --watch-wash: #fbf2e2;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font: 400 14px/1.45 "IBM Plex Sans", system-ui, -apple-system, Segoe UI, sans-serif;
+    font-variant-numeric: tabular-nums;
+    padding: 0 16px calc(24px + env(safe-area-inset-bottom));
+    max-width: 760px; margin-inline: auto;
+  }
+  a { color: inherit; }
+  header { padding: 18px 0 8px; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  header h1 { font-size: 15px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+  #status { font-size: 12px; color: var(--ink-2); text-align: right; }
+  #status .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--rule); margin-right: 5px; vertical-align: 1px; }
+  #status.open .dot { background: var(--long); }
+
+  nav { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; margin: 6px -16px 0; padding: 0 16px; border-bottom: 1px solid var(--rule); }
+  nav::-webkit-scrollbar { display: none; }
+  nav button {
+    appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px;
+    padding: 9px 10px 8px; font: inherit; font-size: 13px; color: var(--ink-2); white-space: nowrap; cursor: pointer;
+  }
+  nav button b { font-weight: 500; color: var(--ink); margin-left: 4px; }
+  nav button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); font-weight: 500; }
+  nav button:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
+
+  section[role="tabpanel"] { padding-top: 4px; }
+  .empty { color: var(--ink-2); padding: 36px 0; font-size: 13px; }
+
+  /* ranked rows */
+  .row { border-bottom: 1px solid var(--rule-2); }
+  .row summary {
+    list-style: none; cursor: pointer; display: grid; grid-template-columns: 64px 1fr 56px; gap: 10px;
+    align-items: center; padding: 10px 0;
+  }
+  .row summary::-webkit-details-marker { display: none; }
+  .row summary:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
+  .tk { font-weight: 600; font-size: 15px; letter-spacing: 0.01em; }
+  .tk small { display: block; font-weight: 400; font-size: 11.5px; color: var(--ink-2); }
+  .why { color: var(--ink-2); font-size: 12.5px; line-height: 1.35; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .why span + span::before { content: " · "; }
+  .sc { text-align: right; font-size: 13px; font-weight: 500; }
+  .bar { height: 3px; background: var(--rule); border-radius: 2px; margin-top: 4px; overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0; background: var(--ink); }
+  .LONG .bar i { background: var(--long); }
+  .SHORT .bar i { background: var(--short); }
+  .WATCH .bar i { background: var(--watch); }
+  .row[open] summary { background: var(--rule-2); margin: 0 -16px; padding-inline: 16px; }
+  .detail { padding: 10px 0 14px; font-size: 13px; }
+  .detail ul { margin: 0 0 8px; padding-left: 18px; }
+  .detail li { margin: 2px 0; }
+  .note { padding: 8px 10px; border-left: 3px solid var(--rule); margin: 8px 0; color: var(--ink); }
+  .note.BULLISH { border-color: var(--long); background: var(--long-wash); }
+  .note.BEARISH { border-color: var(--short); background: var(--short-wash); }
+  .note.MIXED, .note.QUIET { border-color: var(--watch); background: var(--watch-wash); }
+  .note em { font-style: normal; color: var(--ink-2); }
+  .links a { margin-right: 14px; font-size: 13px; }
+
+  /* catalysts */
+  .cat { display: grid; grid-template-columns: 64px 1fr auto; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--rule-2); align-items: baseline; }
+  .cat .d { color: var(--ink-2); font-size: 12.5px; }
+  .cat .d b { color: var(--ink); font-weight: 500; }
+  .cat .n { font-size: 12.5px; color: var(--ink-2); }
+  .cat .days { font-size: 12px; color: var(--watch); font-weight: 500; white-space: nowrap; }
+  .cat .days.today { color: var(--short); }
+
+  /* scorecard */
+  table { width: 100%; border-collapse: collapse; margin-top: 6px; font-size: 13px; }
+  th, td { text-align: right; padding: 7px 0; border-bottom: 1px solid var(--rule-2); font-weight: 400; }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--ink-2); font-size: 12px; }
+  td.pos { color: var(--long); } td.neg { color: var(--short); }
+
+  footer { margin-top: 28px; font-size: 11.5px; color: var(--ink-2); line-height: 1.5; }
+  @media (prefers-reduced-motion: no-preference) { .bar i { transition: width .4s ease-out; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>APEX Market Sniper</h1>
+  <div id="status"><span class="dot"></span><span id="upd">Loading</span></div>
+</header>
+
+<nav role="tablist" id="tabs"></nav>
+<main id="panels"></main>
+
+<footer>
+  Scores 0–100 from the scanner's own rules; higher means more of the setup's conditions are present, not a prediction.
+  Catalyst data from <a href="https://www.pdufa.bio">pdufa.bio</a>. Market data via Finviz Elite. Not investment advice.
+</footer>
+
+<script>
+const TABS = [
+  ["breakout", "Breakouts"], ["undervalued", "Value"], ["exhaustion", "Exhaustion"],
+  ["badnews", "Bad news"], ["catalyst", "FDA"], ["filing", "8-K"], ["scorecard", "Scorecard"],
+];
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const money = p => p == null ? "" : "$" + Number(p).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const cap = c => c == null ? "" : c >= 1e9 ? (c/1e9).toFixed(1) + "B" : (c/1e6).toFixed(0) + "M";
+let data = null, active = null;
+
+function rowHTML(a) {
+  const reasons = (a.reasons || []).slice(1, 4);   // first reason is the scan name
+  return `<details class="row ${a.direction}">
+    <summary>
+      <div class="tk">${esc(a.ticker)}<small>${money(a.price)}</small></div>
+      <div><div class="why">${reasons.map(r => `<span>${esc(r)}</span>`).join("")}</div>
+           <div class="bar"><i style="width:${a.score}%"></i></div></div>
+      <div class="sc">${a.score}</div>
+    </summary>
+    <div class="detail">
+      <div>${esc(a.headline)} <em style="color:var(--ink-2)">· ${esc((a.reasons||[])[0]||"")}</em></div>
+      <ul>${(a.reasons || []).slice(1).map(r => `<li>${esc(r)}</li>`).join("")}</ul>
+      ${a.note ? `<div class="note ${esc(a.sentiment)}">${esc(a.note)} <em>— X: ${esc((a.sentiment||"").toLowerCase())}</em></div>` : ""}
+      <div class="links"><a href="https://finviz.com/quote.ashx?t=${encodeURIComponent(a.ticker)}" target="_blank" rel="noopener">Finviz</a>
+        <a href="https://www.tradingview.com/chart/?symbol=${encodeURIComponent(a.ticker)}" target="_blank" rel="noopener">TradingView</a>
+        ${(a.links || []).slice(0, 2).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i ? "Filing" : "Source"}</a>`).join("")}</div>
+    </div>
+  </details>`;
+}
+
+function catalystsHTML(list) {
+  if (!list.length) return `<div class="empty">No dated FDA events in the next 14 days.</div>`;
+  return list.map(c => {
+    const days = c.days === 0 ? "today" : c.days === 1 ? "tomorrow" : `in ${c.days}d`;
+    return `<div class="cat">
+      <div class="tk">${esc(c.ticker)}<small>${cap(c.cap)}</small></div>
+      <div><div class="d"><b>${esc(c.date)}</b> · ${esc(c.type)}</div>
+           <div class="n">${esc(c.name)}${c.median_move != null ? ` · similar events moved ${c.median_move > 0 ? "+" : ""}${Number(c.median_move).toFixed(0)}% median` : ""}</div></div>
+      <a class="days ${c.days === 0 ? "today" : ""}" href="${esc(c.url)}" target="_blank" rel="noopener">${days}</a>
+    </div>`;
+  }).join("");
+}
+
+function scorecardHTML(rows) {
+  if (!rows.length) return `<div class="empty">Scorecard fills in once alerts are five days old and have been re-priced.</div>`;
+  return `<table><thead><tr><th>Module</th><th>Alerts</th><th>Avg 5-day</th><th>Hit rate</th></tr></thead><tbody>
+    ${rows.map(r => `<tr><td>${esc(r.module)}</td><td>${r.n}</td>
+      <td class="${r.avg >= 0 ? "pos" : "neg"}">${r.avg > 0 ? "+" : ""}${r.avg}%</td><td>${r.hit}%</td></tr>`).join("")}
+  </tbody></table>
+  <p style="font-size:12px;color:var(--ink-2)">Direction-adjusted: a short setup that fell counts as a positive move.</p>`;
+}
+
+function panelHTML(key) {
+  if (key === "catalyst") return catalystsHTML(data.catalysts || []);
+  if (key === "scorecard") return scorecardHTML(data.scorecard || []);
+  const list = (data.modules || {})[key] || [];
+  if (!list.length) return `<div class="empty">Nothing qualifying in the last 36 hours. The scanner only pushes setups scoring 55 or more.</div>`;
+  return list.map(rowHTML).join("");
+}
+
+function render() {
+  const tabs = document.getElementById("tabs");
+  tabs.innerHTML = TABS.map(([k, label]) => {
+    const n = k === "catalyst" ? (data.catalysts || []).length : k === "scorecard" ? null : (data.counts || {})[k] || 0;
+    return `<button role="tab" data-k="${k}" aria-selected="${k === active}">${label}${n ? `<b>${n}</b>` : ""}</button>`;
+  }).join("");
+  document.getElementById("panels").innerHTML = `<section role="tabpanel">${panelHTML(active)}</section>`;
+  const d = new Date(data.updated);
+  const upd = document.getElementById("upd");
+  upd.textContent = `Updated ${d.toLocaleString(undefined, {weekday: "short", hour: "2-digit", minute: "2-digit"})}` + (data.market_open ? " · US open" : " · US closed");
+  document.getElementById("status").classList.toggle("open", !!data.market_open);
+  try { localStorage.setItem("tab", active); } catch (e) {}
+}
+function savedTab() { try { return localStorage.getItem("tab"); } catch (e) { return null; } }
+
+document.getElementById("tabs").addEventListener("click", e => {
+  const b = e.target.closest("button[data-k]"); if (!b) return;
+  active = b.dataset.k; render();
+});
+
+async function load() {
+  try {
+    const r = await fetch("data.json?t=" + Date.now(), {cache: "no-store"});
+    if (!r.ok) throw new Error(r.status);
+    data = await r.json();
+  } catch (e) {
+    document.getElementById("upd").textContent = "No data yet";
+    document.getElementById("panels").innerHTML = `<div class="empty">data.json hasn't been written. The first scheduled run creates it; you can also trigger the workflow by hand from the Actions tab.</div>`;
+    return;
+  }
+  active = active || savedTab() || TABS.find(([k]) => (data.counts || {})[k])?.[0] || "breakout";
+  render();
+}
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>

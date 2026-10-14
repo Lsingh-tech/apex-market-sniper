@@ -1,0 +1,74 @@
+# Scan profiles. Build each in the Finviz Elite screener, copy the URL, and
+# paste its f= (filters) and s= (signal) values here. Nothing else to change.
+#
+# module: which scorer handles the rows (breakout | undervalued | exhaustion | badnews)
+# when:   intraday (polled during US market hours) | daily (once, pre-market)
+
+scans:
+
+  - name: ATH Breakout Watch
+    module: breakout
+    when: intraday
+    # 0-5% below 52W high, price > $5, avg vol > 300k, above SMA50, rel vol > 1.5
+    filters: "sh_price_o5,sh_avgvol_o300,ta_highlow52w_b5h,ta_sma50_pa,sh_relvol_o1.5"
+    signal: ""
+    order: "-relativevolume"
+
+  - name: New 52W High (confirmed)
+    module: breakout
+    when: intraday
+    filters: "sh_price_o5,sh_avgvol_o300,sh_relvol_o1.5"
+    signal: "ta_newhigh"
+    order: "-relativevolume"
+
+  - name: Undervalued + Insider Buying
+    module: undervalued
+    when: daily
+    # P/FCF < 15, debt/eq < 0.5, EPS growth positive, insider transactions positive, small-cap+
+    filters: "cap_smallover,fa_pfcf_u15,fa_debteq_u0.5,fa_epsyoy_pos,sh_insidertrans_pos,sh_avgvol_o200"
+    signal: ""
+    order: "-insidertransactions"
+
+  - name: Recent Insider Buying
+    module: undervalued
+    when: daily
+    filters: "sh_price_o3,sh_avgvol_o200"
+    signal: "n_recentinsiderbuying"
+    order: ""
+
+  - name: Exhaustion / Short Setup
+    module: exhaustion
+    when: intraday
+    # RSI overbought, price 20%+ above SMA20, week perf > 30%, short float > 15%
+    filters: "sh_price_o5,sh_avgvol_o300,ta_rsi_ob70,ta_sma20_pa20,ta_perf_1w30o,sh_short_o15"
+    signal: ""
+    order: "-perf1w"
+
+  - name: Overbought Signal
+    module: exhaustion
+    when: intraday
+    filters: "sh_price_o5,sh_avgvol_o500"
+    signal: "ta_overbought"
+    order: ""
+
+  - name: Earnings Gap Down
+    module: badnews
+    when: intraday
+    # reported today or yesterday, gapped down > 5%
+    filters: "sh_price_o5,sh_avgvol_o300,earningsdate_todayafter|yesterdayafter|todaybefore,ta_gap_d5"
+    signal: ""
+    order: "gap"
+
+  - name: Analyst Downgrades
+    module: badnews
+    when: intraday
+    filters: "sh_price_o5,sh_avgvol_o300"
+    signal: "n_downgrades"
+    order: ""
+
+  - name: Top Losers (news check)
+    module: badnews
+    when: intraday
+    filters: "sh_price_o5,sh_avgvol_o500,ta_change_d10"
+    signal: "ta_toplosers"
+    order: "change"

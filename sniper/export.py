@@ -10,7 +10,7 @@ from .store import Store
 MODULES = ["breakout", "undervalued", "exhaustion", "badnews", "catalyst", "filing"]
 
 
-def build(store: Store, catalysts: list, market_open: bool) -> dict:
+def build(store: Store, catalysts: list, market_open: bool, stats: dict | None = None) -> dict:
     recent = store.recent(hours=36)
     by_mod: dict[str, list] = {m: [] for m in MODULES}
     seen: set[str] = set()
@@ -40,10 +40,11 @@ def build(store: Store, catalysts: list, market_open: bool) -> dict:
         } for c in cats],
         "scorecard": [{"module": m, "n": n, "avg": round(a, 2), "hit": round(h, 1)}
                       for m, n, a, h in store.module_stats()],
+        "scan_stats": stats or {},
     }
 
 
-def write(store: Store, catalysts: list, market_open: bool, path=None) -> None:
+def write(store: Store, catalysts: list, market_open: bool, path=None, stats: dict | None = None) -> None:
     path = path or (config.ROOT / "docs" / "data.json")
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(build(store, catalysts, market_open), indent=0), encoding="utf-8")
+    path.write_text(json.dumps(build(store, catalysts, market_open, stats), indent=0), encoding="utf-8")

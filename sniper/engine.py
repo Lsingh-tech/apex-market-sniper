@@ -13,6 +13,7 @@ from .store import Store
 
 log = logging.getLogger(__name__)
 _catalyst_cache: list[catalysts.Catalyst] = []
+scan_stats: dict[str, dict] = {}   # scan name -> {rows, alerts, at} for the dashboard/diagnostics
 _cik = edgar.CikMap()
 
 
@@ -62,6 +63,8 @@ class Engine:
                 continue
             rows = self.fv.export(filters=scan.filters, signal=scan.signal, order=scan.order)
             log.info("%s: %d rows", scan.name, len(rows))
+            stat = scan_stats[scan.name] = {"rows": len(rows), "alerts": 0,
+                                            "at": datetime.utcnow().isoformat(timespec="minutes")}
             for r in rows[:200]:
                 a = scorer(r)
                 if not a:
@@ -78,6 +81,7 @@ class Engine:
                     a.reasons.append("on watchlist")
                 if self._emit(a):
                     pushed += 1
+                    stat["alerts"] += 1
         return pushed
 
     # ---------------------------------------------------------- catalysts
@@ -177,7 +181,7 @@ class Engine:
     # ------------------------------------------------------------- export
     def export_json(self) -> None:
         from . import export
-        export.write(self.store, _catalyst_cache, us_market_open())
+        export.write(self.store, _catalyst_cache, us_market_open(), stats=scan_stats)
 
     # ----------------------------------------------------------- outcomes
     def track_outcomes(self) -> int:

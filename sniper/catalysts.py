@@ -88,8 +88,11 @@ def fetch_events(days_ahead: int | None = None, session: requests.Session | None
         if len(rows) < 1000:
             break
         offset += 1000
-    # Only dated events are actionable for T-N alerts
-    return [c for c in out if c.ticker]
+    # Keep tradeable, company-level events only: conferences come back with
+    # pseudo-tickers (IDWEEK, ESMO...) and aren't catalysts for a stock.
+    return [c for c in out
+            if c.ticker and c.event_type.lower() != "conference"
+            and c.ticker.isalpha() and len(c.ticker) <= 5]
 
 
 def due_alerts(cats: list[Catalyst]) -> list[tuple[Catalyst, int]]:

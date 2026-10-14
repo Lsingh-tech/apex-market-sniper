@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-14T07:45+00:00",
+"updated": "2026-10-14T13:05+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -125,54 +125,6 @@
 "url": "https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic"
 },
 {
-"ticker": "ASN",
-"company": "ASN Kidney Week",
-"date": "2026-10-21",
-"days": 7,
-"type": "Conference",
-"name": "ASN Kidney Week",
-"cap": null,
-"runway": null,
-"median_move": null,
-"url": "https://www.pdufa.bio/conference/ASN"
-},
-{
-"ticker": "ECTRIMS",
-"company": "Joint ACTRIMS-ECTRIMS Meeting",
-"date": "2026-10-21",
-"days": 7,
-"type": "Conference",
-"name": "Joint ACTRIMS-ECTRIMS Meeting",
-"cap": null,
-"runway": null,
-"median_move": null,
-"url": "https://www.pdufa.bio/conference/ECTRIMS"
-},
-{
-"ticker": "IDWEEK",
-"company": "IDSA/SHEA/HIVMA IDWeek",
-"date": "2026-10-21",
-"days": 7,
-"type": "Conference",
-"name": "IDSA/SHEA/HIVMA IDWeek",
-"cap": null,
-"runway": null,
-"median_move": null,
-"url": "https://www.pdufa.bio/conference/IDWeek"
-},
-{
-"ticker": "ESMO",
-"company": "European Society for Medical Oncology Congress",
-"date": "2026-10-23",
-"days": 9,
-"type": "Conference",
-"name": "European Society for Medical Oncology Congress",
-"cap": null,
-"runway": null,
-"median_move": null,
-"url": "https://www.pdufa.bio/conference/ESMO"
-},
-{
 "ticker": "PHAR",
 "company": "Pharming Group N.V.",
 "date": "2026-10-24",
@@ -197,5 +149,6 @@
 "url": "https://www.pdufa.bio/pdufa/GSK-bepirovirsen"
 }
 ],
-"scorecard": []
+"scorecard": [],
+"scan_stats": {}
 }

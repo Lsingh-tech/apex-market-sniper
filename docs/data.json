@@ -1,12 +1,12 @@
 {
-"updated": "2026-10-15T17:31+00:00",
-"market_open": true,
+"updated": "2026-10-15T20:31+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 7,
+"catalyst": 4,
 "filing": 0
 },
 "modules": {
@@ -32,57 +32,6 @@
 "note": "",
 "sentiment": "",
 "ts": "2026-10-15T10:35:47.541642"
-},
-{
-"ticker": "IDWEEK",
-"price": null,
-"score": 75,
-"direction": "WATCH",
-"headline": "IDWEEK FDA catalyst T-7 \u00b7 2026-10-21",
-"reasons": [
-"Conference: IDSA/SHEA/HIVMA IDWeek",
-"IDSA/SHEA/HIVMA IDWeek"
-],
-"links": [
-"https://www.pdufa.bio/conference/IDWeek"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-14T07:44:54.123975"
-},
-{
-"ticker": "ECTRIMS",
-"price": null,
-"score": 75,
-"direction": "WATCH",
-"headline": "ECTRIMS FDA catalyst T-7 \u00b7 2026-10-21",
-"reasons": [
-"Conference: Joint ACTRIMS-ECTRIMS Meeting",
-"Joint ACTRIMS-ECTRIMS Meeting"
-],
-"links": [
-"https://www.pdufa.bio/conference/ECTRIMS"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-14T07:44:54.122022"
-},
-{
-"ticker": "ASN",
-"price": null,
-"score": 75,
-"direction": "WATCH",
-"headline": "ASN FDA catalyst T-7 \u00b7 2026-10-21",
-"reasons": [
-"Conference: ASN Kidney Week",
-"ASN Kidney Week"
-],
-"links": [
-"https://www.pdufa.bio/conference/ASN"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-14T07:44:54.120102"
 },
 {
 "ticker": "SMMT",
@@ -210,41 +159,5 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {
-"ATH Breakout Watch": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-15T17:30"
-},
-"New 52W High (confirmed)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-15T17:30"
-},
-"Exhaustion / Short Setup": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-15T17:31"
-},
-"Overbought Signal": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-15T17:31"
-},
-"Earnings Gap Down": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-15T17:31"
-},
-"Analyst Downgrades": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-15T17:31"
-},
-"Top Losers (news check)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-15T17:31"
-}
-}
+"scan_stats": {}
 }

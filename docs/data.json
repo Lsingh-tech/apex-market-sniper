@@ -1,12 +1,12 @@
 {
-"updated": "2026-10-16T22:22+00:00",
+"updated": "2026-10-17T00:38+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 6,
+"catalyst": 3,
 "filing": 0
 },
 "modules": {
@@ -16,29 +16,11 @@
 "badnews": [],
 "catalyst": [
 {
-"ticker": "RHHBY",
+"ticker": "VTRS",
 "price": null,
 "score": 90,
 "direction": "WATCH",
-"headline": "RHHBY FDA catalyst DECISION DAY \u00b7 2026-10-15",
-"reasons": [
-"PDUFA: Enspryng (satralizumab) - (thyroid eye disease)",
-"Roche Holding AG"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/RHHBY-enspryng",
-"https://www.gene.com/media/press-releases/15118/2026-06-29/fda-grants-priority-review-to-genentechs"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-15T10:35:47.541642"
-},
-{
-"ticker": "VTRS",
-"price": null,
-"score": 85,
-"direction": "WATCH",
-"headline": "VTRS FDA catalyst T-1 \u00b7 2026-10-17",
+"headline": "VTRS FDA catalyst DECISION DAY \u00b7 2026-10-17",
 "reasons": [
 "PDUFA: MR-141 (phentolamine ophthalmic solution 0.75%)",
 "Viatris Inc.",
@@ -50,14 +32,14 @@
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-10-16T10:22:33.716761"
+"ts": "2026-10-17T00:38:24.446935"
 },
 {
 "ticker": "IRD",
 "price": null,
-"score": 85,
+"score": 90,
 "direction": "WATCH",
-"headline": "IRD FDA catalyst T-1 \u00b7 2026-10-17",
+"headline": "IRD FDA catalyst DECISION DAY \u00b7 2026-10-17",
 "reasons": [
 "PDUFA: Phentolamine ophthalmic solution 0.75%",
 "Opus Genetics, Inc."
@@ -68,67 +50,26 @@
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-10-16T10:22:33.714879"
+"ts": "2026-10-17T00:38:24.441159"
 },
 {
-"ticker": "SMMT",
+"ticker": "PHAR",
 "price": null,
-"score": 60,
+"score": 75,
 "direction": "WATCH",
-"headline": "SMMT FDA catalyst T-30 \u00b7 2026-11-14",
+"headline": "PHAR FDA catalyst T-7 \u00b7 2026-10-24",
 "reasons": [
-"PDUFA: Ivonescimab",
-"Summit Therapeutics Inc.",
-"similar events: median move +0%",
-"cash runway ~19 months"
+"PDUFA: Joenja (leniolisib) - paediatric APDS",
+"Pharming Group N.V.",
+"similar events: median move +0%"
 ],
 "links": [
-"https://www.pdufa.bio/pdufa/SMMT-ivonescimab",
-"https://www.sec.gov/Archives/edgar/data/1599298/000159929826000006/a2026_prx0129xfdablaacce.htm"
+"https://www.pdufa.bio/pdufa/PHAR",
+"https://www.sec.gov/Archives/edgar/data/1828316/000182831626000037/fdaapprovespharmingsjoenja.htm"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-10-15T10:35:47.547688"
-},
-{
-"ticker": "CYTK",
-"price": null,
-"score": 60,
-"direction": "WATCH",
-"headline": "CYTK FDA catalyst T-30 \u00b7 2026-11-14",
-"reasons": [
-"PDUFA: Aficamten - (MAPLE-HCM)",
-"Cytokinetics Inc",
-"similar events: median move +0%",
-"cash runway ~19 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/CYTK-aficamten",
-"https://www.sec.gov/Archives/edgar/data/1061983/000119312526206360/cytk-ex99_1.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-15T10:35:47.545763"
-},
-{
-"ticker": "BTAI",
-"price": null,
-"score": 60,
-"direction": "WATCH",
-"headline": "BTAI FDA catalyst T-30 \u00b7 2026-11-14",
-"reasons": [
-"PDUFA: IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"BioXcel Therapeutics",
-"similar events: median move -0%",
-"cash runway ~4 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/BTAI-igalmi",
-"https://www.sec.gov/Archives/edgar/data/1720893/000110465926061773/tm2614679d1_ex99-1.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-15T10:35:47.543871"
+"ts": "2026-10-17T00:38:24.452397"
 }
 ],
 "filing": []
@@ -138,7 +79,7 @@
 "ticker": "IRD",
 "company": "Opus Genetics, Inc.",
 "date": "2026-10-17",
-"days": 1,
+"days": 0,
 "type": "PDUFA",
 "name": "Phentolamine ophthalmic solution 0.75%",
 "cap": 336943083.15,
@@ -150,7 +91,7 @@
 "ticker": "VTRS",
 "company": "Viatris Inc.",
 "date": "2026-10-17",
-"days": 1,
+"days": 0,
 "type": "PDUFA",
 "name": "MR-141 (phentolamine ophthalmic solution 0.75%)",
 "cap": 20927325542.079998,
@@ -162,7 +103,7 @@
 "ticker": "PHAR",
 "company": "Pharming Group N.V.",
 "date": "2026-10-24",
-"days": 8,
+"days": 7,
 "type": "PDUFA",
 "name": "Joenja (leniolisib) - paediatric APDS",
 "cap": 764757629.8199999,
@@ -174,7 +115,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-10-26",
-"days": 10,
+"days": 9,
 "type": "PDUFA",
 "name": "Bepirovirsen - (B-Well)",
 "cap": 98212319956.98001,
@@ -186,7 +127,7 @@
 "ticker": "INO",
 "company": "Inovio Pharmaceuticals",
 "date": "2026-10-30",
-"days": 14,
+"days": 13,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
 "cap": 107533418.72,

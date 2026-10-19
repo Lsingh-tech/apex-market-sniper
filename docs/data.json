@@ -1,12 +1,12 @@
 {
-"updated": "2026-10-17T00:38+00:00",
+"updated": "2026-10-19T11:38+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 3,
+"catalyst": 1,
 "filing": 0
 },
 "modules": {
@@ -16,94 +16,33 @@
 "badnews": [],
 "catalyst": [
 {
-"ticker": "VTRS",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "VTRS FDA catalyst DECISION DAY \u00b7 2026-10-17",
-"reasons": [
-"PDUFA: MR-141 (phentolamine ophthalmic solution 0.75%)",
-"Viatris Inc.",
-"similar events: median move +0%"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic",
-"https://www.sec.gov/Archives/edgar/data/1792044/000179204426000010/exhibit991-4q25earningsrel.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-17T00:38:24.446935"
-},
-{
-"ticker": "IRD",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "IRD FDA catalyst DECISION DAY \u00b7 2026-10-17",
-"reasons": [
-"PDUFA: Phentolamine ophthalmic solution 0.75%",
-"Opus Genetics, Inc."
-],
-"links": [
-"https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic",
-"https://www.biospace.com/press-releases/opus-genetics-announces-fda-acceptance-of-supplemental-new-drug-application-for-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-17T00:38:24.441159"
-},
-{
-"ticker": "PHAR",
+"ticker": "GSK",
 "price": null,
 "score": 75,
 "direction": "WATCH",
-"headline": "PHAR FDA catalyst T-7 \u00b7 2026-10-24",
+"headline": "GSK FDA catalyst T-7 \u00b7 2026-10-26",
 "reasons": [
-"PDUFA: Joenja (leniolisib) - paediatric APDS",
-"Pharming Group N.V.",
+"PDUFA: Bepirovirsen - (B-Well)",
+"GSK plc",
 "similar events: median move +0%"
 ],
 "links": [
-"https://www.pdufa.bio/pdufa/PHAR",
-"https://www.sec.gov/Archives/edgar/data/1828316/000182831626000037/fdaapprovespharmingsjoenja.htm"
+"https://www.pdufa.bio/pdufa/GSK-bepirovirsen",
+"https://www.sec.gov/Archives/edgar/data/874015/000114036126029960/ef20078953_ex99-1.htm"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-10-17T00:38:24.452397"
+"ts": "2026-10-19T11:38:27.823369"
 }
 ],
 "filing": []
 },
 "catalysts": [
 {
-"ticker": "IRD",
-"company": "Opus Genetics, Inc.",
-"date": "2026-10-17",
-"days": 0,
-"type": "PDUFA",
-"name": "Phentolamine ophthalmic solution 0.75%",
-"cap": 336943083.15,
-"runway": null,
-"median_move": null,
-"url": "https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic"
-},
-{
-"ticker": "VTRS",
-"company": "Viatris Inc.",
-"date": "2026-10-17",
-"days": 0,
-"type": "PDUFA",
-"name": "MR-141 (phentolamine ophthalmic solution 0.75%)",
-"cap": 20927325542.079998,
-"runway": null,
-"median_move": 0.0,
-"url": "https://www.pdufa.bio/pdufa/IRD-phentolamine-ophthalmic"
-},
-{
 "ticker": "PHAR",
 "company": "Pharming Group N.V.",
 "date": "2026-10-24",
-"days": 7,
+"days": 5,
 "type": "PDUFA",
 "name": "Joenja (leniolisib) - paediatric APDS",
 "cap": 764757629.8199999,
@@ -115,10 +54,10 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-10-26",
-"days": 9,
+"days": 7,
 "type": "PDUFA",
 "name": "Bepirovirsen - (B-Well)",
-"cap": 98212319956.98001,
+"cap": 99194042453.48999,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/GSK-bepirovirsen"
@@ -127,15 +66,38 @@
 "ticker": "INO",
 "company": "Inovio Pharmaceuticals",
 "date": "2026-10-30",
-"days": 13,
+"days": 11,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
-"cap": 107533418.72,
+"cap": 102373882.5718,
 "runway": 5.4,
 "median_move": -0.9,
 "url": "https://www.pdufa.bio/pdufa/INO-ino-3107-dna"
+},
+{
+"ticker": "AGIO",
+"company": "Agios Pharmaceuticals",
+"date": "2026-11-01",
+"days": 13,
+"type": "PDUFA",
+"name": "Mitapivat (PYRUKYND) - (RISE UP)",
+"cap": 1869862944.24,
+"runway": 23.2,
+"median_move": -0.01,
+"url": "https://www.pdufa.bio/pdufa/AGIO-mitapivat"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-19T11:38"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-19T11:38"
+}
+}
 }

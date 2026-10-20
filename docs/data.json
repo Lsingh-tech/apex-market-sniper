@@ -1,6 +1,6 @@
 {
-"updated": "2026-10-20T10:42+00:00",
-"market_open": false,
+"updated": "2026-10-20T17:39+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -57,7 +57,7 @@
 "days": 6,
 "type": "PDUFA",
 "name": "Bepirovirsen - (B-Well)",
-"cap": 99194042453.48999,
+"cap": 99093866688.54001,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/GSK-bepirovirsen"
@@ -69,7 +69,7 @@
 "days": 10,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
-"cap": 102373882.5718,
+"cap": 103397518.0,
 "runway": 5.4,
 "median_move": -0.9,
 "url": "https://www.pdufa.bio/pdufa/INO-ino-3107-dna"
@@ -81,7 +81,7 @@
 "days": 12,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
-"cap": 1869862944.24,
+"cap": 2083595681.8,
 "runway": 23.2,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/AGIO-mitapivat"
@@ -89,15 +89,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
+"ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-20T10:41"
+"at": "2026-10-20T17:38"
 },
-"Recent Insider Buying": {
+"New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-20T10:42"
+"at": "2026-10-20T17:38"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-20T17:38"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-20T17:38"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-20T17:38"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-20T17:39"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-20T17:39"
 }
 }
 }

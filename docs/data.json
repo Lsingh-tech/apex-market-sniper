@@ -1,12 +1,12 @@
 {
-"updated": "2026-10-20T23:32+00:00",
+"updated": "2026-10-21T10:52+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 1,
+"catalyst": 0,
 "filing": 0
 },
 "modules": {
@@ -14,27 +14,7 @@
 "undervalued": [],
 "exhaustion": [],
 "badnews": [],
-"catalyst": [
-{
-"ticker": "GSK",
-"price": null,
-"score": 75,
-"direction": "WATCH",
-"headline": "GSK FDA catalyst T-7 \u00b7 2026-10-26",
-"reasons": [
-"PDUFA: Bepirovirsen - (B-Well)",
-"GSK plc",
-"similar events: median move +0%"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/GSK-bepirovirsen",
-"https://www.sec.gov/Archives/edgar/data/874015/000114036126029960/ef20078953_ex99-1.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-19T11:38:27.823369"
-}
-],
+"catalyst": [],
 "filing": []
 },
 "catalysts": [
@@ -42,7 +22,7 @@
 "ticker": "PHAR",
 "company": "Pharming Group N.V.",
 "date": "2026-10-24",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "Joenja (leniolisib) - paediatric APDS",
 "cap": 764757629.8199999,
@@ -54,7 +34,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-10-26",
-"days": 6,
+"days": 5,
 "type": "PDUFA",
 "name": "Bepirovirsen - (B-Well)",
 "cap": 99093866688.54001,
@@ -66,7 +46,7 @@
 "ticker": "INO",
 "company": "Inovio Pharmaceuticals",
 "date": "2026-10-30",
-"days": 10,
+"days": 9,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
 "cap": 103397518.0,
@@ -78,7 +58,7 @@
 "ticker": "AGIO",
 "company": "Agios Pharmaceuticals",
 "date": "2026-11-01",
-"days": 12,
+"days": 11,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
 "cap": 2083595681.8,
@@ -88,5 +68,16 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-21T10:52"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-21T10:52"
+}
+}
 }

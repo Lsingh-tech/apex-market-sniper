@@ -1,6 +1,6 @@
 {
-"updated": "2026-10-21T10:52+00:00",
-"market_open": false,
+"updated": "2026-10-21T17:48+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -36,11 +36,11 @@
 "date": "2026-10-26",
 "days": 5,
 "type": "PDUFA",
-"name": "Bepirovirsen - (B-Well)",
+"name": "Hibsago (bepirovirsen) - chronic hepatitis B",
 "cap": 99093866688.54001,
 "runway": null,
 "median_move": 0.0,
-"url": "https://www.pdufa.bio/pdufa/GSK-bepirovirsen"
+"url": "https://www.pdufa.bio/fda-decision/GSK-2026-10-20"
 },
 {
 "ticker": "INO",
@@ -49,7 +49,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
-"cap": 103397518.0,
+"cap": 104431493.18,
 "runway": 5.4,
 "median_move": -0.9,
 "url": "https://www.pdufa.bio/pdufa/INO-ino-3107-dna"
@@ -61,7 +61,7 @@
 "days": 11,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
-"cap": 2083595681.8,
+"cap": 2187476956.48,
 "runway": 23.2,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/AGIO-mitapivat"
@@ -69,15 +69,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
+"ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-21T10:52"
+"at": "2026-10-21T17:47"
 },
-"Recent Insider Buying": {
+"New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-21T10:52"
+"at": "2026-10-21T17:47"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-21T17:47"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-21T17:47"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-21T17:48"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-21T17:48"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-21T17:48"
 }
 }
 }

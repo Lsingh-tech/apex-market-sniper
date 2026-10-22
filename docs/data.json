@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-21T23:59+00:00",
+"updated": "2026-10-22T10:53+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -22,7 +22,7 @@
 "ticker": "PHAR",
 "company": "Pharming Group N.V.",
 "date": "2026-10-24",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "Joenja (leniolisib) - paediatric APDS",
 "cap": 764757629.8199999,
@@ -34,7 +34,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-10-26",
-"days": 5,
+"days": 4,
 "type": "PDUFA",
 "name": "Hibsago (bepirovirsen) - chronic hepatitis B",
 "cap": 99093866688.54001,
@@ -46,7 +46,7 @@
 "ticker": "INO",
 "company": "Inovio Pharmaceuticals",
 "date": "2026-10-30",
-"days": 9,
+"days": 8,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
 "cap": 104431493.18,
@@ -58,7 +58,7 @@
 "ticker": "AGIO",
 "company": "Agios Pharmaceuticals",
 "date": "2026-11-01",
-"days": 11,
+"days": 10,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
 "cap": 2187476956.48,
@@ -68,5 +68,16 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-22T10:53"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-22T10:53"
+}
+}
 }

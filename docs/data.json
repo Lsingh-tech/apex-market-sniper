@@ -1,12 +1,12 @@
 {
-"updated": "2026-10-22T23:46+00:00",
+"updated": "2026-10-23T10:44+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 0,
+"catalyst": 4,
 "filing": 0
 },
 "modules": {
@@ -14,7 +14,87 @@
 "undervalued": [],
 "exhaustion": [],
 "badnews": [],
-"catalyst": [],
+"catalyst": [
+{
+"ticker": "PHAR",
+"price": null,
+"score": 85,
+"direction": "WATCH",
+"headline": "PHAR FDA catalyst T-1 \u00b7 2026-10-24",
+"reasons": [
+"PDUFA: Joenja (leniolisib) - paediatric APDS",
+"Pharming Group N.V.",
+"similar events: median move +0%"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/PHAR",
+"https://www.sec.gov/Archives/edgar/data/1828316/000182831626000037/fdaapprovespharmingsjoenja.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-23T10:44:33.491928"
+},
+{
+"ticker": "INO",
+"price": null,
+"score": 75,
+"direction": "WATCH",
+"headline": "INO FDA catalyst T-7 \u00b7 2026-10-30",
+"reasons": [
+"PDUFA: INO-3107 DNA immunotherapy",
+"Inovio Pharmaceuticals",
+"similar events: median move -1%",
+"cash runway ~5 months"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/INO-ino-3107-dna",
+"https://www.sec.gov/Archives/edgar/data/1055726/000105572626000019/ino-33126x8kex991.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-23T10:44:33.493998"
+},
+{
+"ticker": "SVRA",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "SVRA FDA catalyst T-30 \u00b7 2026-11-22",
+"reasons": [
+"PDUFA: MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
+"Savara",
+"similar events: median move +0%",
+"cash runway ~23 months"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/SVRA-molbreevi",
+"https://www.sec.gov/Archives/edgar/data/1160308/000119312526219371/svra-20260331.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-23T10:44:33.498712"
+},
+{
+"ticker": "CAPR",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "CAPR FDA catalyst T-30 \u00b7 2026-11-22",
+"reasons": [
+"PDUFA: Deramiocel (CAP-1002) - (HOPE-3)",
+"Capricor Therapeutics Inc.",
+"similar events: median move +0%",
+"cash runway ~36 months"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/CAPR-deramiocel",
+"https://www.globenewswire.com/news-release/2026/08/24/capricor-therapeutics-announces-extension-of-pdufa-target-action-date-as-fda-continues-review-of-deramiocel-bla.html"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-23T10:44:33.496399"
+}
+],
 "filing": []
 },
 "catalysts": [
@@ -22,7 +102,7 @@
 "ticker": "PHAR",
 "company": "Pharming Group N.V.",
 "date": "2026-10-24",
-"days": 2,
+"days": 1,
 "type": "PDUFA",
 "name": "Joenja (leniolisib) - paediatric APDS",
 "cap": 764757629.8199999,
@@ -34,7 +114,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-10-26",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "Hibsago (bepirovirsen) - chronic hepatitis B",
 "cap": 99093866688.54001,
@@ -46,7 +126,7 @@
 "ticker": "INO",
 "company": "Inovio Pharmaceuticals",
 "date": "2026-10-30",
-"days": 8,
+"days": 7,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
 "cap": 104431493.18,
@@ -58,7 +138,7 @@
 "ticker": "AGIO",
 "company": "Agios Pharmaceuticals",
 "date": "2026-11-01",
-"days": 10,
+"days": 9,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
 "cap": 2219715972.7599998,
@@ -68,5 +148,16 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-23T10:44"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-23T10:44"
+}
+}
 }

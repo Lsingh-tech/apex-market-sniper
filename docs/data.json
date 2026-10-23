@@ -1,6 +1,6 @@
 {
-"updated": "2026-10-23T10:44+00:00",
-"market_open": false,
+"updated": "2026-10-23T17:38+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -129,7 +129,7 @@
 "days": 7,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
-"cap": 104431493.18,
+"cap": 86740177.8502,
 "runway": 5.4,
 "median_move": -0.9,
 "url": "https://www.pdufa.bio/pdufa/INO-ino-3107-dna"
@@ -149,15 +149,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
+"ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-23T10:44"
+"at": "2026-10-23T17:37"
 },
-"Recent Insider Buying": {
+"New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-23T10:44"
+"at": "2026-10-23T17:37"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-23T17:37"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-23T17:37"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-23T17:38"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-23T17:38"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-23T17:38"
 }
 }
 }

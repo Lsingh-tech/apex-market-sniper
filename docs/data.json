@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-26T23:00+00:00",
+"updated": "2026-10-27T11:18+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -39,22 +39,10 @@
 },
 "catalysts": [
 {
-"ticker": "GSK",
-"company": "GSK plc",
-"date": "2026-10-26",
-"days": 0,
-"type": "PDUFA",
-"name": "Hibsago (bepirovirsen) - chronic hepatitis B",
-"cap": 99093866688.54001,
-"runway": null,
-"median_move": 0.0,
-"url": "https://www.pdufa.bio/fda-decision/GSK-2026-10-20"
-},
-{
 "ticker": "INO",
 "company": "Inovio Pharmaceuticals",
 "date": "2026-10-30",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
 "cap": 92757913.3978,
@@ -66,7 +54,7 @@
 "ticker": "AGIO",
 "company": "Agios Pharmaceuticals",
 "date": "2026-11-01",
-"days": 6,
+"days": 5,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
 "cap": 2208969634.0,
@@ -76,5 +64,16 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-27T11:18"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-27T11:18"
+}
+}
 }

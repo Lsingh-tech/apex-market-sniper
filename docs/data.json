@@ -1,6 +1,6 @@
 {
-"updated": "2026-10-28T11:52+00:00",
-"market_open": false,
+"updated": "2026-10-28T18:36+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -46,7 +46,7 @@
 "days": 2,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
-"cap": 92757913.3978,
+"cap": 92023791.02,
 "runway": 5.4,
 "median_move": -0.9,
 "url": "https://www.pdufa.bio/pdufa/INO-ino-3107-dna"
@@ -58,7 +58,7 @@
 "days": 4,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
-"cap": 2200014351.7000003,
+"cap": 2270462572.46,
 "runway": 23.2,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/AGIO-mitapivat"
@@ -66,15 +66,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
+"ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-28T11:52"
+"at": "2026-10-28T18:35"
 },
-"Recent Insider Buying": {
+"New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-28T11:52"
+"at": "2026-10-28T18:35"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-28T18:35"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-28T18:35"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-28T18:35"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-28T18:36"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-28T18:36"
 }
 }
 }

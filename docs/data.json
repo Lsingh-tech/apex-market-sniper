@@ -1,6 +1,6 @@
 {
-"updated": "2026-10-28T18:36+00:00",
-"market_open": true,
+"updated": "2026-10-28T22:51+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -65,41 +65,5 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {
-"ATH Breakout Watch": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-28T18:35"
-},
-"New 52W High (confirmed)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-28T18:35"
-},
-"Exhaustion / Short Setup": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-28T18:35"
-},
-"Overbought Signal": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-28T18:35"
-},
-"Earnings Gap Down": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-28T18:35"
-},
-"Analyst Downgrades": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-28T18:36"
-},
-"Top Losers (news check)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-10-28T18:36"
-}
-}
+"scan_stats": {}
 }

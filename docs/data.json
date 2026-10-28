@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-27T22:29+00:00",
+"updated": "2026-10-28T01:33+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -16,23 +16,24 @@
 "badnews": [],
 "catalyst": [
 {
-"ticker": "GSK",
+"ticker": "BBIO",
 "price": null,
-"score": 90,
+"score": 60,
 "direction": "WATCH",
-"headline": "GSK FDA catalyst DECISION DAY \u00b7 2026-10-26",
+"headline": "BBIO FDA catalyst T-30 \u00b7 2026-11-27",
 "reasons": [
-"PDUFA: Hibsago (bepirovirsen) - chronic hepatitis B",
-"GSK plc",
-"similar events: median move +0%"
+"PDUFA: BBP-418 (ribitol) - (FORTIFY)",
+"BridgeBio Pharma, Inc.",
+"similar events: median move +0%",
+"cash runway ~25 months"
 ],
 "links": [
-"https://www.pdufa.bio/fda-decision/GSK-2026-10-20",
-"https://www.sec.gov/Archives/edgar/data/874015/000114036126029960/ef20078953_ex99-1.htm"
+"https://www.pdufa.bio/pdufa/BBIO-bbp-418",
+"https://www.sec.gov/Archives/edgar/data/1743881/000174388126000026/bbio-20260630xex991.htm"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-10-26T11:55:19.312086"
+"ts": "2026-10-28T01:33:28.661987"
 }
 ],
 "filing": []
@@ -42,7 +43,7 @@
 "ticker": "INO",
 "company": "Inovio Pharmaceuticals",
 "date": "2026-10-30",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
 "cap": 92757913.3978,
@@ -54,7 +55,7 @@
 "ticker": "AGIO",
 "company": "Agios Pharmaceuticals",
 "date": "2026-11-01",
-"days": 5,
+"days": 4,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
 "cap": 2200014351.7000003,

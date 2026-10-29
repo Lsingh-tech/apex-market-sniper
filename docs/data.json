@@ -1,12 +1,12 @@
 {
-"updated": "2026-10-29T12:00+00:00",
-"market_open": false,
+"updated": "2026-10-29T18:45+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 2,
+"catalyst": 1,
 "filing": 0
 },
 "modules": {
@@ -34,26 +34,6 @@
 "note": "",
 "sentiment": "",
 "ts": "2026-10-29T11:59:46.578924"
-},
-{
-"ticker": "BBIO",
-"price": null,
-"score": 60,
-"direction": "WATCH",
-"headline": "BBIO FDA catalyst T-30 \u00b7 2026-11-27",
-"reasons": [
-"PDUFA: BBP-418 (ribitol) - (FORTIFY)",
-"BridgeBio Pharma, Inc.",
-"similar events: median move +0%",
-"cash runway ~25 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/BBIO-bbp-418",
-"https://www.sec.gov/Archives/edgar/data/1743881/000174388126000026/bbio-20260630xex991.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-10-28T01:33:28.661987"
 }
 ],
 "filing": []
@@ -66,7 +46,7 @@
 "days": 1,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
-"cap": 92023791.02,
+"cap": 96014935.2148,
 "runway": 5.4,
 "median_move": -0.9,
 "url": "https://www.pdufa.bio/pdufa/INO-ino-3107-dna"
@@ -78,7 +58,7 @@
 "days": 3,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
-"cap": 2270462572.46,
+"cap": 2275835741.8399997,
 "runway": 23.2,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/AGIO-mitapivat"
@@ -86,15 +66,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
+"ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-29T11:59"
+"at": "2026-10-29T18:44"
 },
-"Recent Insider Buying": {
+"New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-29T12:00"
+"at": "2026-10-29T18:44"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-29T18:44"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-29T18:44"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-29T18:45"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-29T18:45"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-29T18:45"
 }
 }
 }

@@ -1,6 +1,6 @@
 {
-"updated": "2026-10-30T11:54+00:00",
-"market_open": false,
+"updated": "2026-10-30T18:21+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -58,7 +58,7 @@
 "days": 2,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
-"cap": 2275835741.8399997,
+"cap": 2222701066.8599997,
 "runway": 23.2,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/AGIO-mitapivat"
@@ -66,15 +66,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
+"ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-30T11:54"
+"at": "2026-10-30T18:20"
 },
-"Recent Insider Buying": {
+"New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-10-30T11:54"
+"at": "2026-10-30T18:20"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-30T18:21"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-30T18:21"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-30T18:21"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-30T18:21"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-30T18:21"
 }
 }
 }

@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-29T22:58+00:00",
+"updated": "2026-10-30T11:54+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -18,9 +18,9 @@
 {
 "ticker": "INO",
 "price": null,
-"score": 85,
+"score": 90,
 "direction": "WATCH",
-"headline": "INO FDA catalyst T-1 \u00b7 2026-10-30",
+"headline": "INO FDA catalyst DECISION DAY \u00b7 2026-10-30",
 "reasons": [
 "PDUFA: INO-3107 DNA immunotherapy",
 "Inovio Pharmaceuticals",
@@ -33,7 +33,7 @@
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-10-29T11:59:46.578924"
+"ts": "2026-10-30T11:54:23.243784"
 }
 ],
 "filing": []
@@ -43,7 +43,7 @@
 "ticker": "INO",
 "company": "Inovio Pharmaceuticals",
 "date": "2026-10-30",
-"days": 1,
+"days": 0,
 "type": "PDUFA",
 "name": "INO-3107 DNA immunotherapy",
 "cap": 96014935.2148,
@@ -55,7 +55,7 @@
 "ticker": "AGIO",
 "company": "Agios Pharmaceuticals",
 "date": "2026-11-01",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
 "cap": 2275835741.8399997,
@@ -65,5 +65,16 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-30T11:54"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-10-30T11:54"
+}
+}
 }

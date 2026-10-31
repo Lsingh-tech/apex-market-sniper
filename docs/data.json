@@ -1,12 +1,12 @@
 {
-"updated": "2026-10-30T22:32+00:00",
+"updated": "2026-10-31T01:47+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 1,
+"catalyst": 5,
 "filing": 0
 },
 "modules": {
@@ -34,34 +34,136 @@
 "note": "",
 "sentiment": "",
 "ts": "2026-10-30T11:54:23.243784"
+},
+{
+"ticker": "AGIO",
+"price": null,
+"score": 85,
+"direction": "WATCH",
+"headline": "AGIO FDA catalyst T-1 \u00b7 2026-11-01",
+"reasons": [
+"PDUFA: Mitapivat (PYRUKYND) - (RISE UP)",
+"Agios Pharmaceuticals",
+"similar events: median move -0%",
+"cash runway ~23 months"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/AGIO-mitapivat",
+"https://www.sec.gov/Archives/edgar/data/1439222/000143922226000115/agio-73026xfyxex991earning.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-31T01:47:56.546745"
+},
+{
+"ticker": "VRTX",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "VRTX FDA catalyst T-30 \u00b7 2026-11-30",
+"reasons": [
+"PDUFA: Povetacicept (ALPN-303)",
+"Vertex",
+"similar events: median move +0%"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/VRTX-povetacicept",
+"https://www.sec.gov/Archives/edgar/data/875320/000087532026000256/ex-991_q22026.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-31T01:47:56.653265"
+},
+{
+"ticker": "RHHBY",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "RHHBY FDA catalyst T-30 \u00b7 2026-11-30",
+"reasons": [
+"PDUFA: Giredestrant (lidERA)",
+"Roche Holding AG",
+"similar events: median move +0%"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/RHHBY-giredestrant",
+"https://www.gene.com/media/press-releases/15115/2026-06-01/fda-accepts-new-drug-application-for-gen"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-31T01:47:56.617313"
+},
+{
+"ticker": "COGT",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "COGT FDA catalyst T-30 \u00b7 2026-11-30",
+"reasons": [
+"PDUFA: Bezuclastinib + sunitinib - (PEAK)",
+"Cogent Biosciences",
+"similar events: median move -0%",
+"cash runway ~36 months"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/COGT-bezuclastinib",
+"https://www.sec.gov/Archives/edgar/data/1622229/000119312526341315/cogt-ex99_1.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-10-31T01:47:56.582744"
 }
 ],
 "filing": []
 },
 "catalysts": [
 {
-"ticker": "INO",
-"company": "Inovio Pharmaceuticals",
-"date": "2026-10-30",
-"days": 0,
-"type": "PDUFA",
-"name": "INO-3107 DNA immunotherapy",
-"cap": 96014935.2148,
-"runway": 5.4,
-"median_move": -0.9,
-"url": "https://www.pdufa.bio/pdufa/INO-ino-3107-dna"
-},
-{
 "ticker": "AGIO",
 "company": "Agios Pharmaceuticals",
 "date": "2026-11-01",
-"days": 2,
+"days": 1,
 "type": "PDUFA",
 "name": "Mitapivat (PYRUKYND) - (RISE UP)",
 "cap": 2222701066.8599997,
 "runway": 23.2,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/AGIO-mitapivat"
+},
+{
+"ticker": "BTAI",
+"company": "BioXcel Therapeutics",
+"date": "2026-11-14",
+"days": 14,
+"type": "PDUFA",
+"name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
+"cap": 2313476.3761,
+"runway": 3.6,
+"median_move": -0.11,
+"url": "https://www.pdufa.bio/pdufa/BTAI-igalmi"
+},
+{
+"ticker": "CYTK",
+"company": "Cytokinetics Inc",
+"date": "2026-11-14",
+"days": 14,
+"type": "PDUFA",
+"name": "Aficamten - (MAPLE-HCM)",
+"cap": 8801572593.58,
+"runway": 18.8,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/CYTK-aficamten"
+},
+{
+"ticker": "SMMT",
+"company": "Summit Therapeutics Inc.",
+"date": "2026-11-14",
+"days": 14,
+"type": "PDUFA",
+"name": "Ivonescimab",
+"cap": 12580511223.539999,
+"runway": 19.0,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/SMMT-ivonescimab"
 }
 ],
 "scorecard": [],

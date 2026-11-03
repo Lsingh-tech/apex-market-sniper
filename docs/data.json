@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-02T22:00+00:00",
+"updated": "2026-11-03T03:27+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -22,7 +22,7 @@
 "ticker": "CYTK",
 "company": "Cytokinetics Inc",
 "date": "2026-11-14",
-"days": 12,
+"days": 11,
 "type": "PDUFA",
 "name": "Aficamten - (MAPLE-HCM)",
 "cap": 8801572593.58,
@@ -34,10 +34,10 @@
 "ticker": "SMMT",
 "company": "Summit Therapeutics Inc.",
 "date": "2026-11-14",
-"days": 12,
+"days": 11,
 "type": "PDUFA",
 "name": "Ivonescimab",
-"cap": 12580511223.539999,
+"cap": 12787926120.060001,
 "runway": 19.0,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SMMT-ivonescimab"
@@ -46,10 +46,10 @@
 "ticker": "TEVA",
 "company": "Teva Pharmaceutical Industries",
 "date": "2026-11-14",
-"days": 12,
+"days": 11,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"cap": 2313476.3761,
+"cap": 49089257343.87,
 "runway": 3.6,
 "median_move": -0.11,
 "url": "https://www.pdufa.bio/pdufa/TEVA-igalmi"

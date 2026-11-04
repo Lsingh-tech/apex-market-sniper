@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-04T00:17+00:00",
+"updated": "2026-11-04T13:30+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -37,7 +37,7 @@
 "days": 10,
 "type": "PDUFA",
 "name": "Ivonescimab",
-"cap": 12787926120.060001,
+"cap": 11806694109.6,
 "runway": 19.0,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SMMT-ivonescimab"
@@ -49,12 +49,23 @@
 "days": 10,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"cap": 49089257343.87,
+"cap": 47468110570.100006,
 "runway": 3.6,
 "median_move": -0.11,
 "url": "https://www.pdufa.bio/pdufa/TEVA-igalmi"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-04T13:30"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-04T13:30"
+}
+}
 }

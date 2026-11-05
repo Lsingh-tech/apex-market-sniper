@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-05T13:45+00:00",
-"market_open": false,
+"updated": "2026-11-05T20:25+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -25,7 +25,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "Aficamten - (MAPLE-HCM)",
-"cap": 8662549175.58,
+"cap": 8841889384.800001,
 "runway": 18.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CYTK-aficamten"
@@ -37,7 +37,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "Ivonescimab",
-"cap": 11806694109.6,
+"cap": 12899611064.340002,
 "runway": 19.0,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SMMT-ivonescimab"
@@ -49,7 +49,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"cap": 47468110570.100006,
+"cap": 48831700910.4,
 "runway": 3.6,
 "median_move": -0.11,
 "url": "https://www.pdufa.bio/pdufa/TEVA-igalmi"
@@ -57,15 +57,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
+"ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-05T13:44"
+"at": "2026-11-05T20:24"
 },
-"Recent Insider Buying": {
+"New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-05T13:45"
+"at": "2026-11-05T20:24"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-05T20:25"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-05T20:25"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-05T20:25"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-05T20:25"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-05T20:25"
 }
 }
 }

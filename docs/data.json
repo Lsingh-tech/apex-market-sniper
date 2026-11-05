@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T00:51+00:00",
+"updated": "2026-11-05T13:45+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -56,5 +56,16 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-05T13:44"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-05T13:45"
+}
+}
 }

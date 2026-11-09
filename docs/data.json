@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-06T23:52+00:00",
-"market_open": false,
+"updated": "2026-11-09T14:46+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -22,7 +22,7 @@
 "ticker": "CYTK",
 "company": "Cytokinetics Inc",
 "date": "2026-11-14",
-"days": 8,
+"days": 5,
 "type": "PDUFA",
 "name": "Aficamten - (MAPLE-HCM)",
 "cap": 8841889384.800001,
@@ -34,7 +34,7 @@
 "ticker": "SMMT",
 "company": "Summit Therapeutics Inc.",
 "date": "2026-11-14",
-"days": 8,
+"days": 5,
 "type": "PDUFA",
 "name": "Ivonescimab",
 "cap": 12899611064.340002,
@@ -46,15 +46,85 @@
 "ticker": "TEVA",
 "company": "Teva Pharmaceutical Industries",
 "date": "2026-11-14",
-"days": 8,
+"days": 5,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
 "cap": 48831700910.4,
 "runway": 3.6,
 "median_move": -0.11,
 "url": "https://www.pdufa.bio/pdufa/TEVA-igalmi"
+},
+{
+"ticker": "CAPR",
+"company": "Capricor Therapeutics Inc.",
+"date": "2026-11-22",
+"days": 13,
+"type": "PDUFA",
+"name": "Deramiocel (CAP-1002) - (HOPE-3)",
+"cap": 523250901.0,
+"runway": 36.1,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
+},
+{
+"ticker": "SVRA",
+"company": "Savara",
+"date": "2026-11-22",
+"days": 13,
+"type": "PDUFA",
+"name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
+"cap": 992371872.45,
+"runway": 22.8,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:44"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:45"
+},
+"ATH Breakout Watch": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:45"
+},
+"New 52W High (confirmed)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:45"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:45"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:45"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:46"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:46"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-09T14:46"
+}
+}
 }

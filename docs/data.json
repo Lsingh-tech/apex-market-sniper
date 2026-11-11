@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T00:38+00:00",
+"updated": "2026-11-11T13:15+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -25,7 +25,7 @@
 "days": 3,
 "type": "PDUFA",
 "name": "Aficamten - (MAPLE-HCM)",
-"cap": 7744971330.0,
+"cap": 7810312140.0,
 "runway": 18.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CYTK-aficamten"
@@ -37,7 +37,7 @@
 "days": 3,
 "type": "PDUFA",
 "name": "Ivonescimab",
-"cap": 13949775600.0,
+"cap": 14223882500.0,
 "runway": 19.0,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SMMT-ivonescimab"
@@ -49,7 +49,7 @@
 "days": 3,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"cap": 49024171000.0,
+"cap": 49408720000.0,
 "runway": 3.6,
 "median_move": -0.11,
 "url": "https://www.pdufa.bio/pdufa/TEVA-igalmi"
@@ -73,12 +73,23 @@
 "days": 11,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 998535600.0,
+"cap": 1010863200.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-11T13:15"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-11T13:15"
+}
+}
 }

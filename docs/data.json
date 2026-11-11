@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-10T20:07+00:00",
-"market_open": true,
+"updated": "2026-11-11T00:38+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -22,7 +22,7 @@
 "ticker": "CYTK",
 "company": "Cytokinetics Inc",
 "date": "2026-11-14",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "Aficamten - (MAPLE-HCM)",
 "cap": 7744971330.0,
@@ -34,7 +34,7 @@
 "ticker": "SMMT",
 "company": "Summit Therapeutics Inc.",
 "date": "2026-11-14",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "Ivonescimab",
 "cap": 13949775600.0,
@@ -46,7 +46,7 @@
 "ticker": "TEVA",
 "company": "Teva Pharmaceutical Industries",
 "date": "2026-11-14",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
 "cap": 49024171000.0,
@@ -58,7 +58,7 @@
 "ticker": "CAPR",
 "company": "Capricor Therapeutics Inc.",
 "date": "2026-11-22",
-"days": 12,
+"days": 11,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
 "cap": 529998062.0,
@@ -70,7 +70,7 @@
 "ticker": "SVRA",
 "company": "Savara",
 "date": "2026-11-22",
-"days": 12,
+"days": 11,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
 "cap": 998535600.0,
@@ -80,41 +80,5 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {
-"ATH Breakout Watch": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-10T20:06"
-},
-"New 52W High (confirmed)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-10T20:06"
-},
-"Exhaustion / Short Setup": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-10T20:06"
-},
-"Overbought Signal": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-10T20:06"
-},
-"Earnings Gap Down": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-10T20:07"
-},
-"Analyst Downgrades": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-10T20:07"
-},
-"Top Losers (news check)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-10T20:07"
-}
-}
+"scan_stats": {}
 }

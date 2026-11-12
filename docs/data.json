@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-11T19:57+00:00",
-"market_open": true,
+"updated": "2026-11-12T01:44+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 0,
+"catalyst": 1,
 "filing": 0
 },
 "modules": {
@@ -14,7 +14,28 @@
 "undervalued": [],
 "exhaustion": [],
 "badnews": [],
-"catalyst": [],
+"catalyst": [
+{
+"ticker": "VNDA",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "VNDA FDA catalyst T-30 \u00b7 2026-12-12",
+"reasons": [
+"PDUFA: Imsidolimab",
+"Vanda Pharmaceuticals Inc.",
+"similar events: median move +0%",
+"cash runway ~19 months"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/VNDA-imsidolimab",
+"https://www.sec.gov/Archives/edgar/data/1347178/000162828026053308/vnda8-k852026exhibit991.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-12T01:44:54.169885"
+}
+],
 "filing": []
 },
 "catalysts": [
@@ -22,7 +43,7 @@
 "ticker": "CYTK",
 "company": "Cytokinetics Inc",
 "date": "2026-11-14",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "Aficamten - (MAPLE-HCM)",
 "cap": 8072608850.0,
@@ -34,7 +55,7 @@
 "ticker": "SMMT",
 "company": "Summit Therapeutics Inc.",
 "date": "2026-11-14",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "Ivonescimab",
 "cap": 13410177500.0,
@@ -46,7 +67,7 @@
 "ticker": "TEVA",
 "company": "Teva Pharmaceutical Industries",
 "date": "2026-11-14",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
 "cap": 50313568904.0,
@@ -58,7 +79,7 @@
 "ticker": "CAPR",
 "company": "Capricor Therapeutics Inc.",
 "date": "2026-11-22",
-"days": 11,
+"days": 10,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
 "cap": 529998062.0,
@@ -70,7 +91,7 @@
 "ticker": "SVRA",
 "company": "Savara",
 "date": "2026-11-22",
-"days": 11,
+"days": 10,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
 "cap": 1046818700.0,
@@ -80,41 +101,5 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {
-"ATH Breakout Watch": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-11T19:55"
-},
-"New 52W High (confirmed)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-11T19:56"
-},
-"Exhaustion / Short Setup": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-11T19:56"
-},
-"Overbought Signal": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-11T19:56"
-},
-"Earnings Gap Down": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-11T19:56"
-},
-"Analyst Downgrades": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-11T19:56"
-},
-"Top Losers (news check)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-11T19:57"
-}
-}
+"scan_stats": {}
 }

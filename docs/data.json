@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-13T13:40+00:00",
-"market_open": false,
+"updated": "2026-11-13T20:11+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 4,
+"catalyst": 3,
 "filing": 0
 },
 "modules": {
@@ -74,26 +74,6 @@
 "note": "",
 "sentiment": "",
 "ts": "2026-11-13T01:28:16.982167"
-},
-{
-"ticker": "VNDA",
-"price": null,
-"score": 60,
-"direction": "WATCH",
-"headline": "VNDA FDA catalyst T-30 \u00b7 2026-12-12",
-"reasons": [
-"PDUFA: Imsidolimab",
-"Vanda Pharmaceuticals Inc.",
-"similar events: median move +0%",
-"cash runway ~19 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/VNDA-imsidolimab",
-"https://www.sec.gov/Archives/edgar/data/1347178/000162828026053308/vnda8-k852026exhibit991.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-12T01:44:54.169885"
 }
 ],
 "filing": []
@@ -106,7 +86,7 @@
 "days": 1,
 "type": "PDUFA",
 "name": "Aficamten - (MAPLE-HCM)",
-"cap": 7823256480.0,
+"cap": 7805133160.0,
 "runway": 18.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CYTK-aficamten"
@@ -118,7 +98,7 @@
 "days": 1,
 "type": "PDUFA",
 "name": "Ivonescimab",
-"cap": 12026081250.0,
+"cap": 11467656250.0,
 "runway": 19.0,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SMMT-ivonescimab"
@@ -130,7 +110,7 @@
 "days": 1,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"cap": 50931989122.0,
+"cap": 51305373692.0,
 "runway": 3.6,
 "median_move": -0.11,
 "url": "https://www.pdufa.bio/pdufa/TEVA-igalmi"
@@ -142,7 +122,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
-"cap": 593017784.0,
+"cap": 552056702.0,
 "runway": 36.1,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
@@ -154,7 +134,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 1041342887.0,
+"cap": 1042931376.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
@@ -166,7 +146,7 @@
 "days": 14,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 15227594170.0,
+"cap": 15288956485.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
@@ -174,15 +154,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
+"ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-13T13:40"
+"at": "2026-11-13T20:10"
 },
-"Recent Insider Buying": {
+"New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-13T13:40"
+"at": "2026-11-13T20:10"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-13T20:10"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-13T20:11"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-13T20:11"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-13T20:11"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-13T20:11"
 }
 }
 }

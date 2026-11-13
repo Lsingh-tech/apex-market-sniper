@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T01:28+00:00",
+"updated": "2026-11-13T13:40+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
@@ -106,7 +106,7 @@
 "days": 1,
 "type": "PDUFA",
 "name": "Aficamten - (MAPLE-HCM)",
-"cap": 7831935057.0,
+"cap": 7823256480.0,
 "runway": 18.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CYTK-aficamten"
@@ -118,7 +118,7 @@
 "days": 1,
 "type": "PDUFA",
 "name": "Ivonescimab",
-"cap": 12224242350.0,
+"cap": 12026081250.0,
 "runway": 19.0,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SMMT-ivonescimab"
@@ -130,7 +130,7 @@
 "days": 1,
 "type": "PDUFA",
 "name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"cap": 51217861684.0,
+"cap": 50931989122.0,
 "runway": 3.6,
 "median_move": -0.11,
 "url": "https://www.pdufa.bio/pdufa/TEVA-igalmi"
@@ -142,7 +142,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
-"cap": 593307344.0,
+"cap": 593017784.0,
 "runway": 36.1,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
@@ -154,7 +154,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 1064508354.0,
+"cap": 1041342887.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
@@ -166,12 +166,23 @@
 "days": 14,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 15367441808.0,
+"cap": 15227594170.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-13T13:40"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-13T13:40"
+}
+}
 }

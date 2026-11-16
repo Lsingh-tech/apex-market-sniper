@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-14T00:52+00:00",
+"updated": "2026-11-16T14:20+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 3,
+"catalyst": 0,
 "filing": 0
 },
 "modules": {
@@ -14,115 +14,18 @@
 "undervalued": [],
 "exhaustion": [],
 "badnews": [],
-"catalyst": [
-{
-"ticker": "TEVA",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "TEVA FDA catalyst DECISION DAY \u00b7 2026-11-14",
-"reasons": [
-"PDUFA: IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"Teva Pharmaceutical Industries",
-"similar events: median move -0%",
-"cash runway ~4 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/TEVA-igalmi",
-"https://www.sec.gov/Archives/edgar/data/1720893/000110465926061773/tm2614679d1_ex99-1.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-14T00:52:20.988641"
-},
-{
-"ticker": "SMMT",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "SMMT FDA catalyst DECISION DAY \u00b7 2026-11-14",
-"reasons": [
-"PDUFA: Ivonescimab",
-"Summit Therapeutics Inc.",
-"similar events: median move +0%",
-"cash runway ~19 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/SMMT-ivonescimab",
-"https://www.sec.gov/Archives/edgar/data/1599298/000159929826000006/a2026_prx0129xfdablaacce.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-14T00:52:20.985429"
-},
-{
-"ticker": "CYTK",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "CYTK FDA catalyst DECISION DAY \u00b7 2026-11-14",
-"reasons": [
-"PDUFA: Aficamten - (MAPLE-HCM)",
-"Cytokinetics Inc",
-"similar events: median move +0%",
-"cash runway ~19 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/CYTK-aficamten",
-"https://www.sec.gov/Archives/edgar/data/1061983/000119312526206360/cytk-ex99_1.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-14T00:52:20.982239"
-}
-],
+"catalyst": [],
 "filing": []
 },
 "catalysts": [
 {
-"ticker": "CYTK",
-"company": "Cytokinetics Inc",
-"date": "2026-11-14",
-"days": 0,
-"type": "PDUFA",
-"name": "Aficamten - (MAPLE-HCM)",
-"cap": 7805133160.0,
-"runway": 18.8,
-"median_move": 0.0,
-"url": "https://www.pdufa.bio/pdufa/CYTK-aficamten"
-},
-{
-"ticker": "SMMT",
-"company": "Summit Therapeutics Inc.",
-"date": "2026-11-14",
-"days": 0,
-"type": "PDUFA",
-"name": "Ivonescimab",
-"cap": 11467656250.0,
-"runway": 19.0,
-"median_move": 0.0,
-"url": "https://www.pdufa.bio/pdufa/SMMT-ivonescimab"
-},
-{
-"ticker": "TEVA",
-"company": "Teva Pharmaceutical Industries",
-"date": "2026-11-14",
-"days": 0,
-"type": "PDUFA",
-"name": "IGALMI (dexmedetomidine sublingual film) - (SERENITY At-Home)",
-"cap": 51305373692.0,
-"runway": 3.6,
-"median_move": -0.11,
-"url": "https://www.pdufa.bio/pdufa/TEVA-igalmi"
-},
-{
 "ticker": "CAPR",
 "company": "Capricor Therapeutics Inc.",
 "date": "2026-11-22",
-"days": 8,
+"days": 6,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
-"cap": 552056702.0,
+"cap": 551900340.0,
 "runway": 36.1,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
@@ -131,10 +34,10 @@
 "ticker": "SVRA",
 "company": "Savara",
 "date": "2026-11-22",
-"days": 8,
+"days": 6,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 1042931376.0,
+"cap": 1023693031.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
@@ -143,10 +46,10 @@
 "ticker": "BBIO",
 "company": "BridgeBio Pharma, Inc.",
 "date": "2026-11-27",
-"days": 13,
+"days": 11,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 15288956485.0,
+"cap": 15252918300.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
@@ -155,15 +58,62 @@
 "ticker": "PYPD",
 "company": "PolyPid Ltd.",
 "date": "2026-11-28",
-"days": 14,
+"days": 12,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
-"cap": 126948538.0,
+"cap": 127151655.0,
 "runway": null,
 "median_move": null,
 "url": "https://www.pdufa.bio/pdufa/PYPD-d-plex100"
+},
+{
+"ticker": "COGT",
+"company": "Cogent Biosciences",
+"date": "2026-11-30",
+"days": 14,
+"type": "PDUFA",
+"name": "Bezuclastinib + sunitinib - (PEAK)",
+"cap": 4969268640.0,
+"runway": 36.5,
+"median_move": -0.01,
+"url": "https://www.pdufa.bio/pdufa/COGT-bezuclastinib"
+},
+{
+"ticker": "RHHBY",
+"company": "Roche Holding AG",
+"date": "2026-11-30",
+"days": 14,
+"type": "PDUFA",
+"name": "Giredestrant (lidERA)",
+"cap": 386253247226.0,
+"runway": null,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/RHHBY-giredestrant"
+},
+{
+"ticker": "VRTX",
+"company": "Vertex",
+"date": "2026-11-30",
+"days": 14,
+"type": "PDUFA",
+"name": "Povetacicept (ALPN-303)",
+"cap": 136555391216.0,
+"runway": null,
+"median_move": 0.0,
+"url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-16T14:20"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-16T14:20"
+}
+}
 }

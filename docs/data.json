@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-16T22:39+00:00",
+"updated": "2026-11-17T04:47+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 0,
+"catalyst": 1,
 "filing": 0
 },
 "modules": {
@@ -14,7 +14,26 @@
 "undervalued": [],
 "exhaustion": [],
 "badnews": [],
-"catalyst": [],
+"catalyst": [
+{
+"ticker": "CORT",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "CORT FDA catalyst T-30 \u00b7 2026-12-17",
+"reasons": [
+"PDUFA: Relacorilant - (GRACE resubmission)",
+"Corcept Therapeutics Inc"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/CORT-relacorilant",
+"https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-17T04:47:02.555681"
+}
+],
 "filing": []
 },
 "catalysts": [
@@ -22,7 +41,7 @@
 "ticker": "CAPR",
 "company": "Capricor Therapeutics Inc.",
 "date": "2026-11-22",
-"days": 6,
+"days": 5,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
 "cap": 551900340.0,
@@ -34,7 +53,7 @@
 "ticker": "SVRA",
 "company": "Savara",
 "date": "2026-11-22",
-"days": 6,
+"days": 5,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
 "cap": 1023693031.0,
@@ -46,7 +65,7 @@
 "ticker": "BBIO",
 "company": "BridgeBio Pharma, Inc.",
 "date": "2026-11-27",
-"days": 11,
+"days": 10,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
 "cap": 15252918300.0,
@@ -58,7 +77,7 @@
 "ticker": "PYPD",
 "company": "PolyPid Ltd.",
 "date": "2026-11-28",
-"days": 12,
+"days": 11,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
 "cap": 127151655.0,
@@ -70,7 +89,7 @@
 "ticker": "COGT",
 "company": "Cogent Biosciences",
 "date": "2026-11-30",
-"days": 14,
+"days": 13,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
 "cap": 4969268640.0,
@@ -82,7 +101,7 @@
 "ticker": "RHHBY",
 "company": "Roche Holding AG",
 "date": "2026-11-30",
-"days": 14,
+"days": 13,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
 "cap": 386253247226.0,
@@ -94,7 +113,7 @@
 "ticker": "VRTX",
 "company": "Vertex",
 "date": "2026-11-30",
-"days": 14,
+"days": 13,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
 "cap": 136555391216.0,

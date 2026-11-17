@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-17T04:47+00:00",
-"market_open": false,
+"updated": "2026-11-17T15:15+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -44,7 +44,7 @@
 "days": 5,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
-"cap": 551900340.0,
+"cap": 480668712.0,
 "runway": 36.1,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
@@ -56,7 +56,7 @@
 "days": 5,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 1023693031.0,
+"cap": 985083941.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
@@ -68,10 +68,22 @@
 "days": 10,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 15252918300.0,
+"cap": 15069805360.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
+},
+{
+"ticker": "GSK",
+"company": "GSK plc",
+"date": "2026-11-27",
+"days": 10,
+"type": "PDUFA",
+"name": "Neladalkib (NVL-655) - (ALKOVE-1)",
+"cap": 101325232057.0,
+"runway": 49.4,
+"median_move": -0.01,
+"url": "https://www.pdufa.bio/pdufa/GSK-neladalkib"
 },
 {
 "ticker": "PYPD",
@@ -80,7 +92,7 @@
 "days": 11,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
-"cap": 127151655.0,
+"cap": 124917361.0,
 "runway": null,
 "median_move": null,
 "url": "https://www.pdufa.bio/pdufa/PYPD-d-plex100"
@@ -92,7 +104,7 @@
 "days": 13,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
-"cap": 4969268640.0,
+"cap": 4774395360.0,
 "runway": 36.5,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/COGT-bezuclastinib"
@@ -104,7 +116,7 @@
 "days": 13,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
-"cap": 386253247226.0,
+"cap": 390416839444.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/RHHBY-giredestrant"
@@ -116,12 +128,58 @@
 "days": 13,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
-"cap": 136555391216.0,
+"cap": 136350025700.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:13"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:13"
+},
+"ATH Breakout Watch": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:14"
+},
+"New 52W High (confirmed)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:14"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:14"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:14"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:14"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:15"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-17T15:15"
+}
+}
 }

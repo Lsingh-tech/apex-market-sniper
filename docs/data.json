@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-18T14:51+00:00",
-"market_open": true,
+"updated": "2026-11-18T21:01+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 8,
+"catalyst": 7,
 "filing": 0
 },
 "modules": {
@@ -141,24 +141,6 @@
 "note": "",
 "sentiment": "",
 "ts": "2026-11-18T03:00:18.868793"
-},
-{
-"ticker": "CORT",
-"price": null,
-"score": 60,
-"direction": "WATCH",
-"headline": "CORT FDA catalyst T-30 \u00b7 2026-12-17",
-"reasons": [
-"PDUFA: Relacorilant - (GRACE resubmission)",
-"Corcept Therapeutics Inc"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/CORT-relacorilant",
-"https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-17T04:47:02.555681"
 }
 ],
 "filing": []
@@ -255,7 +237,7 @@
 "days": 4,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
-"cap": 487039020.0,
+"cap": 477193998.0,
 "runway": 36.1,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
@@ -267,7 +249,7 @@
 "days": 4,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 988393329.0,
+"cap": 1042446089.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
@@ -279,7 +261,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 14960716800.0,
+"cap": 15108765560.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
@@ -303,7 +285,7 @@
 "days": 10,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
-"cap": 132838950.0,
+"cap": 133519394.0,
 "runway": null,
 "median_move": null,
 "url": "https://www.pdufa.bio/pdufa/PYPD-d-plex100"
@@ -315,7 +297,7 @@
 "days": 12,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
-"cap": 4845732900.0,
+"cap": 4846602870.0,
 "runway": 36.5,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/COGT-bezuclastinib"
@@ -327,7 +309,7 @@
 "days": 12,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
-"cap": 384041155787.0,
+"cap": 381282225186.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/RHHBY-giredestrant"
@@ -339,7 +321,7 @@
 "days": 12,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
-"cap": 135439825451.0,
+"cap": 136603842266.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
@@ -347,50 +329,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-18T14:50"
-},
-"Recent Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-18T14:50"
-},
 "ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-18T14:50"
+"at": "2026-11-18T21:00"
 },
 "New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-18T14:50"
+"at": "2026-11-18T21:00"
 },
 "Exhaustion / Short Setup": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-18T14:51"
+"at": "2026-11-18T21:00"
 },
 "Overbought Signal": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-18T14:51"
+"at": "2026-11-18T21:00"
 },
 "Earnings Gap Down": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-18T14:51"
+"at": "2026-11-18T21:00"
 },
 "Analyst Downgrades": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-18T14:51"
+"at": "2026-11-18T21:01"
 },
 "Top Losers (news check)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-18T14:51"
+"at": "2026-11-18T21:01"
 }
 }
 }

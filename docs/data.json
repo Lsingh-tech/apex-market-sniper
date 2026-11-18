@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-18T03:00+00:00",
-"market_open": false,
+"updated": "2026-11-18T14:51+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -225,6 +225,18 @@
 "url": "https://www.globenewswire.com/news-release/2026/11/10/3400380/0/en/immutep-announces-release-of-ctos-2026-abstract-reporting-first-survival-data-from-eftisarc-neo.html"
 },
 {
+"ticker": "ERAS",
+"company": "Erasca, Inc.",
+"date": "2026-11-20",
+"days": 2,
+"type": "Readout",
+"name": "ERAS-0015 (pan-RAS molecular glue) AURORAS-1 Phase 1 Updated monotherapy data (oral\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/09/10/3359447/0/en/erasca-announces-multiple-presentations-at-the-upcoming-38th-eortc-nci-aacr-symposium.html"
+},
+{
 "ticker": "INBX",
 "company": "Inhibrx Biosciences, Inc.",
 "date": "2026-11-20",
@@ -334,5 +346,51 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:50"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:50"
+},
+"ATH Breakout Watch": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:50"
+},
+"New 52W High (confirmed)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:50"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:51"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:51"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:51"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:51"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-18T14:51"
+}
+}
 }

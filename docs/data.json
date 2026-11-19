@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-19T02:22+00:00",
-"market_open": false,
+"updated": "2026-11-19T14:58+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 9,
+"catalyst": 8,
 "filing": 0
 },
 "modules": {
@@ -104,24 +104,6 @@
 "note": "",
 "sentiment": "",
 "ts": "2026-11-18T03:00:18.854134"
-},
-{
-"ticker": "SLS",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "SLS FDA catalyst DECISION DAY \u00b7 2026-11-17",
-"reasons": [
-"Readout: REGAL Phase 3 (galinpepimut-S) topline, event-driven",
-"SELLAS Life Sciences Group, Inc."
-],
-"links": [
-"https://www.globenewswire.com/news-release/2026/11/17/3404429/0/en/sellas-life-sciences-announces-positive-pivotal-phase-3-regal-trial-data-showing-immunotherapeutic-cancer-vaccine-galinpepimut-s-gps-demonstrated-a-statistically-significant-and-cl.html",
-"https://www.sec.gov/Archives/edgar/data/1390478/000139047826000013/sls-202608118xkexhibit991.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-17T21:27:06.399940"
 },
 {
 "ticker": "ERAS",
@@ -328,5 +310,51 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:56"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:56"
+},
+"ATH Breakout Watch": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:57"
+},
+"New 52W High (confirmed)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:57"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:57"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:57"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:57"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:58"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-19T14:58"
+}
+}
 }

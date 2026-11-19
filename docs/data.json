@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-19T14:58+00:00",
-"market_open": true,
+"updated": "2026-11-19T21:05+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 8,
+"catalyst": 4,
 "filing": 0
 },
 "modules": {
@@ -52,60 +52,6 @@
 "ts": "2026-11-19T02:22:15.466955"
 },
 {
-"ticker": "NTLA",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "NTLA FDA catalyst DECISION DAY \u00b7 2026-11-18",
-"reasons": [
-"Readout: nexiguran ziclumeran (nex-z) Phase 1 clinical trial (long-term follow-up) Phase 1\u2026",
-"Intellia Therapeutics, Inc."
-],
-"links": [
-"https://www.globenewswire.com/news-release/2026/11/03/3394179/0/en/intellia-therapeutics-announces-upcoming-nexiguran-ziclumeran-nex-z-medical-congress-presentations.html",
-"https://www.globenewswire.com/news-release/2026/11/03/3394179/0/en/intellia-therapeutics-announces-upcoming-nexiguran-ziclumeran-nex-z-medical-congress-presentations.html"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-18T03:00:18.860822"
-},
-{
-"ticker": "IPHA",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "IPHA FDA catalyst DECISION DAY \u00b7 2026-11-18",
-"reasons": [
-"Readout: IPH4502 (Nectin-4 exatecan ADC) IPH4502-101 (Phase 1 dose escalation) Phase 1\u2026",
-"Innate Pharma SA"
-],
-"links": [
-"https://www.businesswire.com/news/home/20261104506906/en/Innate-Pharma-Reports-Third-Quarter-2026-Business-and-Financial-Update/",
-"https://www.businesswire.com/news/home/20261104506906/en/Innate-Pharma-Reports-Third-Quarter-2026-Business-and-Financial-Update/"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-18T03:00:18.856346"
-},
-{
-"ticker": "ALZN",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "ALZN FDA catalyst DECISION DAY \u00b7 2026-11-18",
-"reasons": [
-"Readout: AL001 Phase 1/2A clinical trial (7T resting-state fMRI) Poster presentation of fMRI\u2026",
-"Alzamend Neuro, Inc."
-],
-"links": [
-"https://www.prnewswire.com/news-releases/alzamend-neuros-phase-12a-lithium-neuroimaging-data-accepted-for-poster-presentation-at-neuroscience-2026-in-washington-dc-302856333.html",
-"https://www.prnewswire.com/news-releases/alzamend-neuros-phase-12a-lithium-neuroimaging-data-accepted-for-poster-presentation-at-neuroscience-2026-in-washington-dc-302856333.html"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-18T03:00:18.854134"
-},
-{
 "ticker": "ERAS",
 "price": null,
 "score": 85,
@@ -140,25 +86,6 @@
 "note": "",
 "sentiment": "",
 "ts": "2026-11-19T02:22:15.470778"
-},
-{
-"ticker": "RHHBY",
-"price": null,
-"score": 60,
-"direction": "WATCH",
-"headline": "RHHBY FDA catalyst T-30 \u00b7 2026-12-18",
-"reasons": [
-"PDUFA: Giredestrant (+ everolimus)",
-"Roche Holding AG",
-"similar events: median move +0%"
-],
-"links": [
-"https://www.pdufa.bio/fda-decision/RHHBY-2026-11-16",
-"https://www.gene.com/media/press-releases/15100/2026-02-19/fda-accepts-new-drug-application-for-gen"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-18T03:00:18.868793"
 }
 ],
 "filing": []
@@ -219,7 +146,7 @@
 "days": 3,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
-"cap": 465032501.0,
+"cap": 436076554.0,
 "runway": 36.1,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
@@ -231,7 +158,7 @@
 "days": 3,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 1041342972.0,
+"cap": 1150551610.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
@@ -243,7 +170,7 @@
 "days": 8,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 15196426010.0,
+"cap": 15246178185.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
@@ -267,7 +194,7 @@
 "days": 9,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
-"cap": 133245185.0,
+"cap": 132838950.0,
 "runway": null,
 "median_move": null,
 "url": "https://www.pdufa.bio/pdufa/PYPD-d-plex100"
@@ -279,7 +206,7 @@
 "days": 11,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
-"cap": 4838773140.0,
+"cap": 4834649482.0,
 "runway": 36.5,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/COGT-bezuclastinib"
@@ -291,7 +218,7 @@
 "days": 11,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
-"cap": 381538635560.0,
+"cap": 378253431030.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/RHHBY-giredestrant"
@@ -303,58 +230,12 @@
 "days": 11,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
-"cap": 136010285217.0,
+"cap": 131769867620.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
 }
 ],
 "scorecard": [],
-"scan_stats": {
-"Undervalued + Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:56"
-},
-"Recent Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:56"
-},
-"ATH Breakout Watch": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:57"
-},
-"New 52W High (confirmed)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:57"
-},
-"Exhaustion / Short Setup": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:57"
-},
-"Overbought Signal": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:57"
-},
-"Earnings Gap Down": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:57"
-},
-"Analyst Downgrades": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:58"
-},
-"Top Losers (news check)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-19T14:58"
-}
-}
+"scan_stats": {}
 }

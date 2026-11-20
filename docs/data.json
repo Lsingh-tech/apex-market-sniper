@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-19T21:05+00:00",
+"updated": "2026-11-20T02:16+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 4,
+"catalyst": 6,
 "filing": 0
 },
 "modules": {
@@ -15,6 +15,42 @@
 "exhaustion": [],
 "badnews": [],
 "catalyst": [
+{
+"ticker": "ERAS",
+"price": null,
+"score": 90,
+"direction": "WATCH",
+"headline": "ERAS FDA catalyst DECISION DAY \u00b7 2026-11-20",
+"reasons": [
+"Readout: ERAS-0015 (pan-RAS molecular glue) AURORAS-1 Phase 1 Updated monotherapy data (oral\u2026",
+"Erasca, Inc."
+],
+"links": [
+"https://www.globenewswire.com/news-release/2026/09/10/3359447/0/en/erasca-announces-multiple-presentations-at-the-upcoming-38th-eortc-nci-aacr-symposium.html",
+"https://www.globenewswire.com/news-release/2026/09/10/3359447/0/en/erasca-announces-multiple-presentations-at-the-upcoming-38th-eortc-nci-aacr-symposium.html"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-20T02:16:42.433762"
+},
+{
+"ticker": "INBX",
+"price": null,
+"score": 90,
+"direction": "WATCH",
+"headline": "INBX FDA catalyst DECISION DAY \u00b7 2026-11-20",
+"reasons": [
+"Readout: ozekibart (INBRX-109) ChonDRAgon (randomized Phase 2) Subgroup analysis and updated PFS\u2026",
+"Inhibrx Biosciences, Inc."
+],
+"links": [
+"https://www.prnewswire.com/news-releases/inhibrx-announces-participation-in-upcoming-scientific-conferences-302907553.html",
+"https://www.prnewswire.com/news-releases/inhibrx-announces-participation-in-upcoming-scientific-conferences-302907553.html"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-20T02:16:42.429186"
+},
 {
 "ticker": "BHVN",
 "price": null,
@@ -52,74 +88,54 @@
 "ts": "2026-11-19T02:22:15.466955"
 },
 {
-"ticker": "ERAS",
+"ticker": "GSK",
 "price": null,
-"score": 85,
+"score": 75,
 "direction": "WATCH",
-"headline": "ERAS FDA catalyst T-1 \u00b7 2026-11-20",
+"headline": "GSK FDA catalyst T-7 \u00b7 2026-11-27",
 "reasons": [
-"Readout: ERAS-0015 (pan-RAS molecular glue) AURORAS-1 Phase 1 Updated monotherapy data (oral\u2026",
-"Erasca, Inc."
+"PDUFA: Neladalkib (NVL-655) - (ALKOVE-1)",
+"GSK plc",
+"similar events: median move -0%",
+"cash runway ~49 months"
 ],
 "links": [
-"https://www.globenewswire.com/news-release/2026/09/10/3359447/0/en/erasca-announces-multiple-presentations-at-the-upcoming-38th-eortc-nci-aacr-symposium.html",
-"https://www.globenewswire.com/news-release/2026/09/10/3359447/0/en/erasca-announces-multiple-presentations-at-the-upcoming-38th-eortc-nci-aacr-symposium.html"
+"https://www.pdufa.bio/fda-decision/GSK-2026-11-17",
+"https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-11-19T02:22:15.472318"
+"ts": "2026-11-20T02:16:42.440366"
 },
 {
-"ticker": "INBX",
+"ticker": "BBIO",
 "price": null,
-"score": 85,
+"score": 75,
 "direction": "WATCH",
-"headline": "INBX FDA catalyst T-1 \u00b7 2026-11-20",
+"headline": "BBIO FDA catalyst T-7 \u00b7 2026-11-27",
 "reasons": [
-"Readout: ozekibart (INBRX-109) ChonDRAgon (randomized Phase 2) Subgroup analysis and updated PFS\u2026",
-"Inhibrx Biosciences, Inc."
+"PDUFA: BBP-418 (ribitol) - (FORTIFY)",
+"BridgeBio Pharma, Inc.",
+"similar events: median move +0%",
+"cash runway ~25 months"
 ],
 "links": [
-"https://www.prnewswire.com/news-releases/inhibrx-announces-participation-in-upcoming-scientific-conferences-302907553.html",
-"https://www.prnewswire.com/news-releases/inhibrx-announces-participation-in-upcoming-scientific-conferences-302907553.html"
+"https://www.pdufa.bio/pdufa/BBIO-bbp-418",
+"https://www.sec.gov/Archives/edgar/data/1743881/000174388126000026/bbio-20260630xex991.htm"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-11-19T02:22:15.470778"
+"ts": "2026-11-20T02:16:42.437312"
 }
 ],
 "filing": []
 },
 "catalysts": [
 {
-"ticker": "BHVN",
-"company": "Biohaven Ltd.",
-"date": "2026-11-19",
-"days": 0,
-"type": "Readout",
-"name": "BHV-1530 (FGFR3-directed ADC) Phase 1 Phase 1 data, oral presentation at ENA 2026",
-"cap": null,
-"runway": null,
-"median_move": null,
-"url": "https://www.prnewswire.com/news-releases/biohaven-reports-recent-business-developments-and-third-quarter-2026-financial-results-302924206.html"
-},
-{
-"ticker": "IMMP",
-"company": "IMMUTEP Ltd",
-"date": "2026-11-19",
-"days": 0,
-"type": "Readout",
-"name": "eftilagimod alfa (efti) + pembrolizumab + radiotherapy EFTISARC-NEO\u2026",
-"cap": null,
-"runway": null,
-"median_move": null,
-"url": "https://www.globenewswire.com/news-release/2026/11/10/3400380/0/en/immutep-announces-release-of-ctos-2026-abstract-reporting-first-survival-data-from-eftisarc-neo.html"
-},
-{
 "ticker": "ERAS",
 "company": "Erasca, Inc.",
 "date": "2026-11-20",
-"days": 1,
+"days": 0,
 "type": "Readout",
 "name": "ERAS-0015 (pan-RAS molecular glue) AURORAS-1 Phase 1 Updated monotherapy data (oral\u2026",
 "cap": null,
@@ -131,7 +147,7 @@
 "ticker": "INBX",
 "company": "Inhibrx Biosciences, Inc.",
 "date": "2026-11-20",
-"days": 1,
+"days": 0,
 "type": "Readout",
 "name": "ozekibart (INBRX-109) ChonDRAgon (randomized Phase 2) Subgroup analysis and updated PFS\u2026",
 "cap": null,
@@ -143,7 +159,7 @@
 "ticker": "CAPR",
 "company": "Capricor Therapeutics Inc.",
 "date": "2026-11-22",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
 "cap": 436076554.0,
@@ -155,7 +171,7 @@
 "ticker": "SVRA",
 "company": "Savara",
 "date": "2026-11-22",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
 "cap": 1150551610.0,
@@ -167,7 +183,7 @@
 "ticker": "BBIO",
 "company": "BridgeBio Pharma, Inc.",
 "date": "2026-11-27",
-"days": 8,
+"days": 7,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
 "cap": 15246178185.0,
@@ -179,7 +195,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-11-27",
-"days": 8,
+"days": 7,
 "type": "PDUFA",
 "name": "Neladalkib (NVL-655) - (ALKOVE-1)",
 "cap": 99094107130.0,
@@ -191,7 +207,7 @@
 "ticker": "PYPD",
 "company": "PolyPid Ltd.",
 "date": "2026-11-28",
-"days": 9,
+"days": 8,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
 "cap": 132838950.0,
@@ -203,7 +219,7 @@
 "ticker": "COGT",
 "company": "Cogent Biosciences",
 "date": "2026-11-30",
-"days": 11,
+"days": 10,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
 "cap": 4834649482.0,
@@ -215,7 +231,7 @@
 "ticker": "RHHBY",
 "company": "Roche Holding AG",
 "date": "2026-11-30",
-"days": 11,
+"days": 10,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
 "cap": 378253431030.0,
@@ -227,7 +243,7 @@
 "ticker": "VRTX",
 "company": "Vertex",
 "date": "2026-11-30",
-"days": 11,
+"days": 10,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
 "cap": 131769867620.0,

@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T02:16+00:00",
-"market_open": false,
+"updated": "2026-11-20T14:41+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 6,
+"catalyst": 4,
 "filing": 0
 },
 "modules": {
@@ -50,42 +50,6 @@
 "note": "",
 "sentiment": "",
 "ts": "2026-11-20T02:16:42.429186"
-},
-{
-"ticker": "BHVN",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "BHVN FDA catalyst DECISION DAY \u00b7 2026-11-19",
-"reasons": [
-"Readout: BHV-1530 (FGFR3-directed ADC) Phase 1 Phase 1 data, oral presentation at ENA 2026",
-"Biohaven Ltd."
-],
-"links": [
-"https://www.prnewswire.com/news-releases/biohaven-reports-recent-business-developments-and-third-quarter-2026-financial-results-302924206.html",
-"https://www.prnewswire.com/news-releases/biohaven-reports-recent-business-developments-and-third-quarter-2026-financial-results-302924206.html"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-19T02:22:15.468953"
-},
-{
-"ticker": "IMMP",
-"price": null,
-"score": 90,
-"direction": "WATCH",
-"headline": "IMMP FDA catalyst DECISION DAY \u00b7 2026-11-19",
-"reasons": [
-"Readout: eftilagimod alfa (efti) + pembrolizumab + radiotherapy EFTISARC-NEO\u2026",
-"IMMUTEP Ltd"
-],
-"links": [
-"https://www.globenewswire.com/news-release/2026/11/10/3400380/0/en/immutep-announces-release-of-ctos-2026-abstract-reporting-first-survival-data-from-eftisarc-neo.html",
-"https://www.globenewswire.com/news-release/2026/11/10/3400380/0/en/immutep-announces-release-of-ctos-2026-abstract-reporting-first-survival-data-from-eftisarc-neo.html"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-19T02:22:15.466955"
 },
 {
 "ticker": "GSK",
@@ -174,7 +138,7 @@
 "days": 2,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 1150551610.0,
+"cap": 1149448492.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
@@ -186,7 +150,7 @@
 "days": 7,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 15246178185.0,
+"cap": 15229542180.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
@@ -210,7 +174,7 @@
 "days": 8,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
-"cap": 132838950.0,
+"cap": 133042061.0,
 "runway": null,
 "median_move": null,
 "url": "https://www.pdufa.bio/pdufa/PYPD-d-plex100"
@@ -222,7 +186,7 @@
 "days": 10,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
-"cap": 4834649482.0,
+"cap": 4826593560.0,
 "runway": 36.5,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/COGT-bezuclastinib"
@@ -234,7 +198,7 @@
 "days": 10,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
-"cap": 378253431030.0,
+"cap": 379024327968.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/RHHBY-giredestrant"
@@ -246,12 +210,58 @@
 "days": 10,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
-"cap": 131769867620.0,
+"cap": 132006925345.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:39"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:39"
+},
+"ATH Breakout Watch": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:39"
+},
+"New 52W High (confirmed)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:40"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:40"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:40"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:40"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:40"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-20T14:41"
+}
+}
 }

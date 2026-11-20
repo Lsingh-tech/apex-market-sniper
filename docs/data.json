@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T14:41+00:00",
+"updated": "2026-11-20T20:53+00:00",
 "market_open": true,
 "counts": {
 "breakout": 0,
@@ -126,7 +126,7 @@
 "days": 2,
 "type": "PDUFA",
 "name": "Deramiocel (CAP-1002) - (HOPE-3)",
-"cap": 436076554.0,
+"cap": 460399549.0,
 "runway": 36.1,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
@@ -138,7 +138,7 @@
 "days": 2,
 "type": "PDUFA",
 "name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 1149448492.0,
+"cap": 972949684.0,
 "runway": 22.8,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
@@ -150,7 +150,7 @@
 "days": 7,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 15229542180.0,
+"cap": 14908120530.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
@@ -174,7 +174,7 @@
 "days": 8,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
-"cap": 133042061.0,
+"cap": 127964120.0,
 "runway": null,
 "median_move": null,
 "url": "https://www.pdufa.bio/pdufa/PYPD-d-plex100"
@@ -186,7 +186,7 @@
 "days": 10,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
-"cap": 4826593560.0,
+"cap": 4682926714.0,
 "runway": 36.5,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/COGT-bezuclastinib"
@@ -198,7 +198,7 @@
 "days": 10,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
-"cap": 379024327968.0,
+"cap": 377059757937.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/RHHBY-giredestrant"
@@ -210,7 +210,7 @@
 "days": 10,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
-"cap": 132006925345.0,
+"cap": 131962556252.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
@@ -218,50 +218,40 @@
 ],
 "scorecard": [],
 "scan_stats": {
-"Undervalued + Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-20T14:39"
-},
-"Recent Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-20T14:39"
-},
 "ATH Breakout Watch": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-20T14:39"
+"at": "2026-11-20T20:52"
 },
 "New 52W High (confirmed)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-20T14:40"
+"at": "2026-11-20T20:52"
 },
 "Exhaustion / Short Setup": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-20T14:40"
+"at": "2026-11-20T20:52"
 },
 "Overbought Signal": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-20T14:40"
+"at": "2026-11-20T20:52"
 },
 "Earnings Gap Down": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-20T14:40"
+"at": "2026-11-20T20:52"
 },
 "Analyst Downgrades": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-20T14:40"
+"at": "2026-11-20T20:53"
 },
 "Top Losers (news check)": {
 "rows": 0,
 "alerts": 0,
-"at": "2026-11-20T14:41"
+"at": "2026-11-20T20:53"
 }
 }
 }

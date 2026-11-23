@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-21T01:53+00:00",
-"market_open": false,
+"updated": "2026-11-23T16:55+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 7,
+"catalyst": 4,
 "filing": 0
 },
 "modules": {
@@ -16,175 +16,93 @@
 "badnews": [],
 "catalyst": [
 {
-"ticker": "ERAS",
+"ticker": "VRTX",
 "price": null,
-"score": 90,
+"score": 75,
 "direction": "WATCH",
-"headline": "ERAS FDA catalyst DECISION DAY \u00b7 2026-11-20",
+"headline": "VRTX FDA catalyst T-7 \u00b7 2026-11-30",
 "reasons": [
-"Readout: ERAS-0015 (pan-RAS molecular glue) AURORAS-1 Phase 1 Updated monotherapy data (oral\u2026",
-"Erasca, Inc."
+"PDUFA: Povetacicept (ALPN-303)",
+"Vertex",
+"similar events: median move +0%"
 ],
 "links": [
-"https://www.globenewswire.com/news-release/2026/09/10/3359447/0/en/erasca-announces-multiple-presentations-at-the-upcoming-38th-eortc-nci-aacr-symposium.html",
-"https://www.globenewswire.com/news-release/2026/09/10/3359447/0/en/erasca-announces-multiple-presentations-at-the-upcoming-38th-eortc-nci-aacr-symposium.html"
+"https://www.pdufa.bio/pdufa/VRTX-povetacicept",
+"https://www.sec.gov/Archives/edgar/data/875320/000087532026000256/ex-991_q22026.htm"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-11-20T02:16:42.433762"
+"ts": "2026-11-23T16:54:06.775214"
 },
 {
-"ticker": "INBX",
+"ticker": "RHHBY",
 "price": null,
-"score": 90,
+"score": 75,
 "direction": "WATCH",
-"headline": "INBX FDA catalyst DECISION DAY \u00b7 2026-11-20",
+"headline": "RHHBY FDA catalyst T-7 \u00b7 2026-11-30",
 "reasons": [
-"Readout: ozekibart (INBRX-109) ChonDRAgon (randomized Phase 2) Subgroup analysis and updated PFS\u2026",
-"Inhibrx Biosciences, Inc."
+"PDUFA: Giredestrant (lidERA)",
+"Roche Holding AG",
+"similar events: median move +0%"
 ],
 "links": [
-"https://www.prnewswire.com/news-releases/inhibrx-announces-participation-in-upcoming-scientific-conferences-302907553.html",
-"https://www.prnewswire.com/news-releases/inhibrx-announces-participation-in-upcoming-scientific-conferences-302907553.html"
+"https://www.pdufa.bio/pdufa/RHHBY-giredestrant",
+"https://www.gene.com/media/press-releases/15115/2026-06-01/fda-accepts-new-drug-application-for-gen"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-11-20T02:16:42.429186"
+"ts": "2026-11-23T16:54:06.773106"
 },
 {
-"ticker": "SVRA",
+"ticker": "COGT",
 "price": null,
-"score": 85,
+"score": 75,
 "direction": "WATCH",
-"headline": "SVRA FDA catalyst T-1 \u00b7 2026-11-22",
+"headline": "COGT FDA catalyst T-7 \u00b7 2026-11-30",
 "reasons": [
-"PDUFA: MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"Savara",
-"similar events: median move +0%",
-"cash runway ~23 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/SVRA-molbreevi",
-"https://www.sec.gov/Archives/edgar/data/1160308/000119312526219371/svra-20260331.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-21T01:53:26.769778"
-},
-{
-"ticker": "CAPR",
-"price": null,
-"score": 85,
-"direction": "WATCH",
-"headline": "CAPR FDA catalyst T-1 \u00b7 2026-11-22",
-"reasons": [
-"PDUFA: Deramiocel (CAP-1002) - (HOPE-3)",
-"Capricor Therapeutics Inc.",
-"similar events: median move +0%",
+"PDUFA: Bezuclastinib + sunitinib - (PEAK)",
+"Cogent Biosciences",
+"similar events: median move -0%",
 "cash runway ~36 months"
 ],
 "links": [
-"https://www.pdufa.bio/pdufa/CAPR-deramiocel",
-"https://www.globenewswire.com/news-release/2026/11/09/3398455/0/en/capricor-s-hope-3-phase-3-cardiac-results-for-deramiocel-win-american-heart-association-outstanding-research-award-in-pediatric-cardiology.html"
+"https://www.pdufa.bio/pdufa/COGT-bezuclastinib",
+"https://www.sec.gov/Archives/edgar/data/1622229/000119312526341315/cogt-ex99_1.htm"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-11-21T01:53:26.766360"
+"ts": "2026-11-23T16:54:06.770785"
 },
 {
-"ticker": "PYPD",
+"ticker": "GILD",
 "price": null,
-"score": 75,
+"score": 60,
 "direction": "WATCH",
-"headline": "PYPD FDA catalyst T-7 \u00b7 2026-11-28",
+"headline": "GILD FDA catalyst T-30 \u00b7 2026-12-23",
 "reasons": [
-"PDUFA: D-PLEX100 - prevention of surgical site infections",
-"PolyPid Ltd."
+"PDUFA: Anito-cel (anitocabtagene autoleucel)",
+"Gilead Sciences, Inc."
 ],
 "links": [
-"https://www.pdufa.bio/pdufa/PYPD-d-plex100",
-"https://www.sec.gov/Archives/edgar/data/1611842/000121390026082564/ea029964201ex99-1.htm"
+"https://www.pdufa.bio/pdufa/GILD-anito-cel",
+"https://www.gilead.com/news/news-details/2026/gilead-sciences-to-acquire-arcellx-to-maximize-long-term-potential-of-anito-cel"
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-11-21T01:53:26.771376"
-},
-{
-"ticker": "GSK",
-"price": null,
-"score": 75,
-"direction": "WATCH",
-"headline": "GSK FDA catalyst T-7 \u00b7 2026-11-27",
-"reasons": [
-"PDUFA: Neladalkib (NVL-655) - (ALKOVE-1)",
-"GSK plc",
-"similar events: median move -0%",
-"cash runway ~49 months"
-],
-"links": [
-"https://www.pdufa.bio/fda-decision/GSK-2026-11-17",
-"https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-20T02:16:42.440366"
-},
-{
-"ticker": "BBIO",
-"price": null,
-"score": 75,
-"direction": "WATCH",
-"headline": "BBIO FDA catalyst T-7 \u00b7 2026-11-27",
-"reasons": [
-"PDUFA: BBP-418 (ribitol) - (FORTIFY)",
-"BridgeBio Pharma, Inc.",
-"similar events: median move +0%",
-"cash runway ~25 months"
-],
-"links": [
-"https://www.pdufa.bio/pdufa/BBIO-bbp-418",
-"https://www.sec.gov/Archives/edgar/data/1743881/000174388126000026/bbio-20260630xex991.htm"
-],
-"note": "",
-"sentiment": "",
-"ts": "2026-11-20T02:16:42.437312"
+"ts": "2026-11-23T16:54:06.777144"
 }
 ],
 "filing": []
 },
 "catalysts": [
 {
-"ticker": "CAPR",
-"company": "Capricor Therapeutics Inc.",
-"date": "2026-11-22",
-"days": 1,
-"type": "PDUFA",
-"name": "Deramiocel (CAP-1002) - (HOPE-3)",
-"cap": 460399549.0,
-"runway": 36.1,
-"median_move": 0.0,
-"url": "https://www.pdufa.bio/pdufa/CAPR-deramiocel"
-},
-{
-"ticker": "SVRA",
-"company": "Savara",
-"date": "2026-11-22",
-"days": 1,
-"type": "PDUFA",
-"name": "MOLBREEVI (molgramostim inhalation) - (IMPALA-2)",
-"cap": 972949684.0,
-"runway": 22.8,
-"median_move": 0.0,
-"url": "https://www.pdufa.bio/pdufa/SVRA-molbreevi"
-},
-{
 "ticker": "BBIO",
 "company": "BridgeBio Pharma, Inc.",
 "date": "2026-11-27",
-"days": 6,
+"days": 4,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
-"cap": 14908120530.0,
+"cap": 14810720030.0,
 "runway": 25.4,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/BBIO-bbp-418"
@@ -193,7 +111,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-11-27",
-"days": 6,
+"days": 4,
 "type": "PDUFA",
 "name": "Neladalkib (NVL-655) - (ALKOVE-1)",
 "cap": 99094107130.0,
@@ -205,10 +123,10 @@
 "ticker": "PYPD",
 "company": "PolyPid Ltd.",
 "date": "2026-11-28",
-"days": 7,
+"days": 5,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
-"cap": 127964120.0,
+"cap": 129289284.0,
 "runway": null,
 "median_move": null,
 "url": "https://www.pdufa.bio/pdufa/PYPD-d-plex100"
@@ -217,10 +135,10 @@
 "ticker": "COGT",
 "company": "Cogent Biosciences",
 "date": "2026-11-30",
-"days": 9,
+"days": 7,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
-"cap": 4682926714.0,
+"cap": 4648249710.0,
 "runway": 36.5,
 "median_move": -0.01,
 "url": "https://www.pdufa.bio/pdufa/COGT-bezuclastinib"
@@ -229,10 +147,10 @@
 "ticker": "RHHBY",
 "company": "Roche Holding AG",
 "date": "2026-11-30",
-"days": 9,
+"days": 7,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
-"cap": 377059757937.0,
+"cap": 374649264285.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/RHHBY-giredestrant"
@@ -241,15 +159,61 @@
 "ticker": "VRTX",
 "company": "Vertex",
 "date": "2026-11-30",
-"days": 9,
+"days": 7,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
-"cap": 131962556252.0,
+"cap": 130576972863.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:54"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:54"
+},
+"ATH Breakout Watch": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:54"
+},
+"New 52W High (confirmed)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:54"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:55"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:55"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:55"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:55"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-23T16:55"
+}
+}
 }

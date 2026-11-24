@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-23T16:55+00:00",
-"market_open": true,
+"updated": "2026-11-24T00:29+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -99,7 +99,7 @@
 "ticker": "BBIO",
 "company": "BridgeBio Pharma, Inc.",
 "date": "2026-11-27",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
 "cap": 14810720030.0,
@@ -111,7 +111,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-11-27",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "Neladalkib (NVL-655) - (ALKOVE-1)",
 "cap": 99094107130.0,
@@ -123,7 +123,7 @@
 "ticker": "PYPD",
 "company": "PolyPid Ltd.",
 "date": "2026-11-28",
-"days": 5,
+"days": 4,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
 "cap": 129289284.0,
@@ -135,7 +135,7 @@
 "ticker": "COGT",
 "company": "Cogent Biosciences",
 "date": "2026-11-30",
-"days": 7,
+"days": 6,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
 "cap": 4648249710.0,
@@ -147,7 +147,7 @@
 "ticker": "RHHBY",
 "company": "Roche Holding AG",
 "date": "2026-11-30",
-"days": 7,
+"days": 6,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
 "cap": 374649264285.0,
@@ -159,7 +159,7 @@
 "ticker": "VRTX",
 "company": "Vertex",
 "date": "2026-11-30",
-"days": 7,
+"days": 6,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
 "cap": 130576972863.0,
@@ -169,51 +169,5 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {
-"Undervalued + Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:54"
-},
-"Recent Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:54"
-},
-"ATH Breakout Watch": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:54"
-},
-"New 52W High (confirmed)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:54"
-},
-"Exhaustion / Short Setup": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:55"
-},
-"Overbought Signal": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:55"
-},
-"Earnings Gap Down": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:55"
-},
-"Analyst Downgrades": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:55"
-},
-"Top Losers (news check)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-23T16:55"
-}
-}
+"scan_stats": {}
 }

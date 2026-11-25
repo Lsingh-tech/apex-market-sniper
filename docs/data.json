@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-25T16:32+00:00",
-"market_open": true,
+"updated": "2026-11-25T22:03+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -89,54 +89,32 @@
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
+},
+{
+"ticker": "VSTM",
+"company": "Verastem, Inc.",
+"date": "2026-12-05",
+"days": 10,
+"type": "Readout",
+"name": "VS-7375 (oral KRAS G12D ON/OFF inhibitor) TARGET-D-101 (Phase 1/2) Updated Phase 1/2\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.businesswire.com/news/home/20261110841945/en/Verastem-Oncology-Announces-Late-Breaking-Oral-Presentation-of-VS-7375-Lung-Cancer-Data-at-IASLCASCO-2026-North-America-Conference-on-Lung-Cancer/"
+},
+{
+"ticker": "RAPP",
+"company": "Rapport Therapeutics, Inc.",
+"date": "2026-12-07",
+"days": 12,
+"type": "Readout",
+"name": "RAP-219 Phase 2a (RNS): seizure severity and seizure-burden analyses Two Phase 2a\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/24/3409113/0/en/rapport-to-present-new-long-term-open-label-safety-data-in-focal-onset-seizures-and-analyses-of-seizure-severity-and-burden-at-the-2026-aes-annual-meeting.html"
 }
 ],
 "scorecard": [],
-"scan_stats": {
-"Undervalued + Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:30"
-},
-"Recent Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:30"
-},
-"ATH Breakout Watch": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:31"
-},
-"New 52W High (confirmed)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:31"
-},
-"Exhaustion / Short Setup": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:31"
-},
-"Overbought Signal": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:31"
-},
-"Earnings Gap Down": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:31"
-},
-"Analyst Downgrades": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:32"
-},
-"Top Losers (news check)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-25T16:32"
-}
-}
+"scan_stats": {}
 }

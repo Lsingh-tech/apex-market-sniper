@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-25T22:03+00:00",
+"updated": "2026-11-26T04:08+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 0,
+"catalyst": 2,
 "filing": 0
 },
 "modules": {
@@ -14,7 +14,48 @@
 "undervalued": [],
 "exhaustion": [],
 "badnews": [],
-"catalyst": [],
+"catalyst": [
+{
+"ticker": "GSK",
+"price": null,
+"score": 85,
+"direction": "WATCH",
+"headline": "GSK FDA catalyst T-1 \u00b7 2026-11-27",
+"reasons": [
+"PDUFA: Neladalkib (NVL-655) - (ALKOVE-1)",
+"GSK plc",
+"similar events: median move -0%",
+"cash runway ~49 months"
+],
+"links": [
+"https://www.pdufa.bio/fda-decision/GSK-2026-11-17",
+"https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-26T04:08:06.466511"
+},
+{
+"ticker": "BBIO",
+"price": null,
+"score": 85,
+"direction": "WATCH",
+"headline": "BBIO FDA catalyst T-1 \u00b7 2026-11-27",
+"reasons": [
+"PDUFA: BBP-418 (ribitol) - (FORTIFY)",
+"BridgeBio Pharma, Inc.",
+"similar events: median move +0%",
+"cash runway ~25 months"
+],
+"links": [
+"https://www.pdufa.bio/fda-decision/BBIO-2026-11-23",
+"https://www.sec.gov/Archives/edgar/data/1743881/000174388126000026/bbio-20260630xex991.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-26T04:08:06.464748"
+}
+],
 "filing": []
 },
 "catalysts": [
@@ -22,7 +63,7 @@
 "ticker": "BBIO",
 "company": "BridgeBio Pharma, Inc.",
 "date": "2026-11-27",
-"days": 2,
+"days": 1,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
 "cap": 14810720030.0,
@@ -34,7 +75,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-11-27",
-"days": 2,
+"days": 1,
 "type": "PDUFA",
 "name": "Neladalkib (NVL-655) - (ALKOVE-1)",
 "cap": 99094107130.0,
@@ -46,7 +87,7 @@
 "ticker": "PYPD",
 "company": "PolyPid Ltd.",
 "date": "2026-11-28",
-"days": 3,
+"days": 2,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
 "cap": 129289284.0,
@@ -58,7 +99,7 @@
 "ticker": "COGT",
 "company": "Cogent Biosciences",
 "date": "2026-11-30",
-"days": 5,
+"days": 4,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
 "cap": 4648249710.0,
@@ -70,7 +111,7 @@
 "ticker": "RHHBY",
 "company": "Roche Holding AG",
 "date": "2026-11-30",
-"days": 5,
+"days": 4,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
 "cap": 374649264285.0,
@@ -82,10 +123,10 @@
 "ticker": "VRTX",
 "company": "Vertex",
 "date": "2026-11-30",
-"days": 5,
+"days": 4,
 "type": "PDUFA",
 "name": "Povetacicept (ALPN-303)",
-"cap": 142974965122.0,
+"cap": 143025672657.0,
 "runway": null,
 "median_move": 0.0,
 "url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
@@ -94,7 +135,7 @@
 "ticker": "VSTM",
 "company": "Verastem, Inc.",
 "date": "2026-12-05",
-"days": 10,
+"days": 9,
 "type": "Readout",
 "name": "VS-7375 (oral KRAS G12D ON/OFF inhibitor) TARGET-D-101 (Phase 1/2) Updated Phase 1/2\u2026",
 "cap": null,
@@ -106,7 +147,7 @@
 "ticker": "RAPP",
 "company": "Rapport Therapeutics, Inc.",
 "date": "2026-12-07",
-"days": 12,
+"days": 11,
 "type": "Readout",
 "name": "RAP-219 Phase 2a (RNS): seizure severity and seizure-burden analyses Two Phase 2a\u2026",
 "cap": null,

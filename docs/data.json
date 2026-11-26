@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-26T16:05+00:00",
-"market_open": true,
+"updated": "2026-11-26T22:01+00:00",
+"market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -120,6 +120,30 @@
 "url": "https://www.pdufa.bio/fda-decision/RHHBY-2026-11-23"
 },
 {
+"ticker": "CGON",
+"company": "CG Oncology, Inc.",
+"date": "2026-12-02",
+"days": 6,
+"type": "Readout",
+"name": "cretostimogene grenadenorepvec (adjuvant intravesical) PIVOT-006, Phase 3 topline\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/25/3410154/0/en/cg-oncology-to-present-new-data-on-cretostimogene-grenadenorepvec-at-the-society-of-urologic-oncology-27th-annual-meeting.html"
+},
+{
+"ticker": "CGON",
+"company": "CG Oncology, Inc.",
+"date": "2026-12-04",
+"days": 8,
+"type": "Readout",
+"name": "cretostimogene grenadenorepvec + gemcitabine CORE-008 Cohort CX sustained one-year\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/25/3410154/0/en/cg-oncology-to-present-new-data-on-cretostimogene-grenadenorepvec-at-the-society-of-urologic-oncology-27th-annual-meeting.html"
+},
+{
 "ticker": "VSTM",
 "company": "Verastem, Inc.",
 "date": "2026-12-05",
@@ -132,6 +156,30 @@
 "url": "https://www.businesswire.com/news/home/20261110841945/en/Verastem-Oncology-Announces-Late-Breaking-Oral-Presentation-of-VS-7375-Lung-Cancer-Data-at-IASLCASCO-2026-North-America-Conference-on-Lung-Cancer/"
 },
 {
+"ticker": "HRMY",
+"company": "Harmony Biosciences Holdings, Inc.",
+"date": "2026-12-06",
+"days": 10,
+"type": "Readout",
+"name": "EPX-100 (clemizole) ARGUS, Phase 3 open-label extension updated preliminary OLE results\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/24/3409238/0/en/harmony-biosciences-to-present-new-18-month-open-label-extension-data-from-the-epx-100-phase-3-dravet-syndrome-trial-at-the-2026-american-epilepsy-society-annual-meeting.html"
+},
+{
+"ticker": "RAPP",
+"company": "Rapport Therapeutics, Inc.",
+"date": "2026-12-06",
+"days": 10,
+"type": "Readout",
+"name": "RAP-219 Phase 2 open-label long-term safety trial new long-term open-label safety data\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/24/3409113/0/en/rapport-to-present-new-long-term-open-label-safety-data-in-focal-onset-seizures-and-analyses-of-seizure-severity-and-burden-at-the-2026-aes-annual-meeting.html"
+},
+{
 "ticker": "RAPP",
 "company": "Rapport Therapeutics, Inc.",
 "date": "2026-12-07",
@@ -142,54 +190,80 @@
 "runway": null,
 "median_move": null,
 "url": "https://www.globenewswire.com/news-release/2026/11/24/3409113/0/en/rapport-to-present-new-long-term-open-label-safety-data-in-focal-onset-seizures-and-analyses-of-seizure-severity-and-burden-at-the-2026-aes-annual-meeting.html"
+},
+{
+"ticker": "STOK",
+"company": "Stoke Therapeutics, Inc.",
+"date": "2026-12-07",
+"days": 11,
+"type": "Readout",
+"name": "zorevunersen Phase 1/2a studies and open-label extensions long-term results through 4\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://investor.stoketherapeutics.com/news-releases/news-release-details/stoke-therapeutics-and-biogen-announce-presentations-long-term"
+},
+{
+"ticker": "BCTX",
+"company": "BriaCell Therapeutics Corp.",
+"date": "2026-12-09",
+"days": 13,
+"type": "Readout",
+"name": "Bria-IMT Bria-ABC, Phase 3 PD-L1 CPS and TMB exploratory correlates of overall survival,\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/24/3409117/0/en/briacell-to-present-five-clinical-posters-including-late-breaking-phase-3-biomarker-and-safety-findings-at-sabcs-2026.html"
+},
+{
+"ticker": "NVS",
+"company": "Novartis Ag",
+"date": "2026-12-09",
+"days": 13,
+"type": "Readout",
+"name": "SNV4818 first-in-human Phase 1/2 study initial clinical results, SABCS late-breaking\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/18/3405374/0/en/novartis-showcases-hematology-momentum-and-continued-breast-cancer-leadership-at-ash-and-sabcs.html"
+},
+{
+"ticker": "OLMA",
+"company": "Olema Pharmaceuticals, Inc.",
+"date": "2026-12-09",
+"days": 13,
+"type": "Readout",
+"name": "OP-3136 (KAT6A/B inhibitor), monotherapy and combination Phase 1 data, SABCS poster\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://ir.olema.com/news-releases/news-release-details/olema-oncology-present-combination-data-palazestrant-and-op-3136"
+},
+{
+"ticker": "OLMA",
+"company": "Olema Pharmaceuticals, Inc.",
+"date": "2026-12-10",
+"days": 14,
+"type": "Readout",
+"name": "palazestrant (OP-1250) + everolimus Phase 1b/2 combination data, SABCS poster P4-13-28",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://ir.olema.com/news-releases/news-release-details/olema-oncology-present-combination-data-palazestrant-and-op-3136"
+},
+{
+"ticker": "RIGL",
+"company": "Rigel Pharmaceuticals, Inc.",
+"date": "2026-12-10",
+"days": 14,
+"type": "Readout",
+"name": "vepdegestrant (VEPPANU) VERITAC Phase 1/2 (Phase 2 expansion cohort) new data, SABCS\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.prnewswire.com/news-releases/rigel-to-present-new-data-for-veppanu-vepdegestrant-in-patients-with-erher2--esr1-mutated-advanced-or-metastatic-breast-cancer-at-sabcs-2026-302948831.html"
 }
 ],
 "scorecard": [],
-"scan_stats": {
-"Undervalued + Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:04"
-},
-"Recent Insider Buying": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:04"
-},
-"ATH Breakout Watch": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:04"
-},
-"New 52W High (confirmed)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:04"
-},
-"Exhaustion / Short Setup": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:04"
-},
-"Overbought Signal": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:05"
-},
-"Earnings Gap Down": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:05"
-},
-"Analyst Downgrades": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:05"
-},
-"Top Losers (news check)": {
-"rows": 0,
-"alerts": 0,
-"at": "2026-11-26T16:05"
-}
-}
+"scan_stats": {}
 }

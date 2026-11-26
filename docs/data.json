@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-26T04:08+00:00",
-"market_open": false,
+"updated": "2026-11-26T16:05+00:00",
+"market_open": true,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
@@ -120,18 +120,6 @@
 "url": "https://www.pdufa.bio/fda-decision/RHHBY-2026-11-23"
 },
 {
-"ticker": "VRTX",
-"company": "Vertex",
-"date": "2026-11-30",
-"days": 4,
-"type": "PDUFA",
-"name": "Povetacicept (ALPN-303)",
-"cap": 143025672657.0,
-"runway": null,
-"median_move": 0.0,
-"url": "https://www.pdufa.bio/pdufa/VRTX-povetacicept"
-},
-{
 "ticker": "VSTM",
 "company": "Verastem, Inc.",
 "date": "2026-12-05",
@@ -157,5 +145,51 @@
 }
 ],
 "scorecard": [],
-"scan_stats": {}
+"scan_stats": {
+"Undervalued + Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:04"
+},
+"Recent Insider Buying": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:04"
+},
+"ATH Breakout Watch": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:04"
+},
+"New 52W High (confirmed)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:04"
+},
+"Exhaustion / Short Setup": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:04"
+},
+"Overbought Signal": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:05"
+},
+"Earnings Gap Down": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:05"
+},
+"Analyst Downgrades": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:05"
+},
+"Top Losers (news check)": {
+"rows": 0,
+"alerts": 0,
+"at": "2026-11-26T16:05"
+}
+}
 }

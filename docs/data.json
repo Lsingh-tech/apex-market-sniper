@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-26T22:01+00:00",
+"updated": "2026-11-27T04:12+00:00",
 "market_open": false,
 "counts": {
 "breakout": 0,
 "undervalued": 0,
 "exhaustion": 0,
 "badnews": 0,
-"catalyst": 2,
+"catalyst": 6,
 "filing": 0
 },
 "modules": {
@@ -18,9 +18,9 @@
 {
 "ticker": "GSK",
 "price": null,
-"score": 85,
+"score": 90,
 "direction": "WATCH",
-"headline": "GSK FDA catalyst T-1 \u00b7 2026-11-27",
+"headline": "GSK FDA catalyst DECISION DAY \u00b7 2026-11-27",
 "reasons": [
 "PDUFA: Neladalkib (NVL-655) - (ALKOVE-1)",
 "GSK plc",
@@ -33,14 +33,14 @@
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-11-26T04:08:06.466511"
+"ts": "2026-11-27T04:12:14.170066"
 },
 {
 "ticker": "BBIO",
 "price": null,
-"score": 85,
+"score": 90,
 "direction": "WATCH",
-"headline": "BBIO FDA catalyst T-1 \u00b7 2026-11-27",
+"headline": "BBIO FDA catalyst DECISION DAY \u00b7 2026-11-27",
 "reasons": [
 "PDUFA: BBP-418 (ribitol) - (FORTIFY)",
 "BridgeBio Pharma, Inc.",
@@ -53,7 +53,81 @@
 ],
 "note": "",
 "sentiment": "",
-"ts": "2026-11-26T04:08:06.464748"
+"ts": "2026-11-27T04:12:14.167793"
+},
+{
+"ticker": "PYPD",
+"price": null,
+"score": 85,
+"direction": "WATCH",
+"headline": "PYPD FDA catalyst T-1 \u00b7 2026-11-28",
+"reasons": [
+"PDUFA: D-PLEX100 - prevention of surgical site infections",
+"PolyPid Ltd."
+],
+"links": [
+"https://www.pdufa.bio/fda-decision/PYPD-2026-11-24",
+"https://www.sec.gov/Archives/edgar/data/1611842/000121390026082564/ea029964201ex99-1.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-27T04:12:14.171795"
+},
+{
+"ticker": "CGON",
+"price": null,
+"score": 75,
+"direction": "WATCH",
+"headline": "CGON FDA catalyst T-7 \u00b7 2026-12-04",
+"reasons": [
+"Readout: cretostimogene grenadenorepvec BOND-003 Cohort P (Phase 3) Updated results from BOND-003\u2026",
+"CG Oncology, Inc."
+],
+"links": [
+"https://www.globenewswire.com/news-release/2026/11/25/3410154/0/en/cg-oncology-to-present-new-data-on-cretostimogene-grenadenorepvec-at-the-society-of-urologic-oncology-27th-annual-meeting.html",
+"https://www.globenewswire.com/news-release/2026/11/25/3410154/0/en/cg-oncology-to-present-new-data-on-cretostimogene-grenadenorepvec-at-the-society-of-urologic-oncology-27th-annual-meeting.html"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-27T04:12:14.174837"
+},
+{
+"ticker": "VTRS",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "VTRS FDA catalyst T-30 \u00b7 2026-12-27",
+"reasons": [
+"PDUFA: MR-107A-02 (fast-acting meloxicam)",
+"Viatris Inc."
+],
+"links": [
+"https://www.pdufa.bio/pdufa/VTRS-mr-107a-02",
+"https://www.sec.gov/Archives/edgar/data/1792044/000179204426000037/exhibit991-2q26earningsrel.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-27T04:12:14.178232"
+},
+{
+"ticker": "PRAX",
+"price": null,
+"score": 60,
+"direction": "WATCH",
+"headline": "PRAX FDA catalyst T-30 \u00b7 2026-12-27",
+"reasons": [
+"PDUFA: Relutrigine (PRAX-562) - (EMBOLD)",
+"Praxis Precision Medicines Inc.",
+"similar events: median move -0%",
+"cash runway ~33 months"
+],
+"links": [
+"https://www.pdufa.bio/pdufa/PRAX-relutrigine",
+"https://www.sec.gov/Archives/edgar/data/1689548/000168954826000069/prax-20260629.htm"
+],
+"note": "",
+"sentiment": "",
+"ts": "2026-11-27T04:12:14.176676"
 }
 ],
 "filing": []
@@ -63,7 +137,7 @@
 "ticker": "BBIO",
 "company": "BridgeBio Pharma, Inc.",
 "date": "2026-11-27",
-"days": 1,
+"days": 0,
 "type": "PDUFA",
 "name": "BBP-418 (ribitol) - (FORTIFY)",
 "cap": 14810720030.0,
@@ -75,7 +149,7 @@
 "ticker": "GSK",
 "company": "GSK plc",
 "date": "2026-11-27",
-"days": 1,
+"days": 0,
 "type": "PDUFA",
 "name": "Neladalkib (NVL-655) - (ALKOVE-1)",
 "cap": 99094107130.0,
@@ -87,7 +161,7 @@
 "ticker": "PYPD",
 "company": "PolyPid Ltd.",
 "date": "2026-11-28",
-"days": 2,
+"days": 1,
 "type": "PDUFA",
 "name": "D-PLEX100 - prevention of surgical site infections",
 "cap": 129289284.0,
@@ -99,7 +173,7 @@
 "ticker": "COGT",
 "company": "Cogent Biosciences",
 "date": "2026-11-30",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "Bezuclastinib + sunitinib - (PEAK)",
 "cap": 4648249710.0,
@@ -111,7 +185,7 @@
 "ticker": "RHHBY",
 "company": "Roche Holding AG",
 "date": "2026-11-30",
-"days": 4,
+"days": 3,
 "type": "PDUFA",
 "name": "Giredestrant (lidERA)",
 "cap": 374649264285.0,
@@ -123,7 +197,7 @@
 "ticker": "CGON",
 "company": "CG Oncology, Inc.",
 "date": "2026-12-02",
-"days": 6,
+"days": 5,
 "type": "Readout",
 "name": "cretostimogene grenadenorepvec (adjuvant intravesical) PIVOT-006, Phase 3 topline\u2026",
 "cap": null,
@@ -135,7 +209,7 @@
 "ticker": "CGON",
 "company": "CG Oncology, Inc.",
 "date": "2026-12-04",
-"days": 8,
+"days": 7,
 "type": "Readout",
 "name": "cretostimogene grenadenorepvec + gemcitabine CORE-008 Cohort CX sustained one-year\u2026",
 "cap": null,
@@ -144,10 +218,34 @@
 "url": "https://www.globenewswire.com/news-release/2026/11/25/3410154/0/en/cg-oncology-to-present-new-data-on-cretostimogene-grenadenorepvec-at-the-society-of-urologic-oncology-27th-annual-meeting.html"
 },
 {
+"ticker": "CGON",
+"company": "CG Oncology, Inc.",
+"date": "2026-12-04",
+"days": 7,
+"type": "Readout",
+"name": "cretostimogene grenadenorepvec BOND-003 Cohort P (Phase 3) Updated results from BOND-003\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/25/3410154/0/en/cg-oncology-to-present-new-data-on-cretostimogene-grenadenorepvec-at-the-society-of-urologic-oncology-27th-annual-meeting.html"
+},
+{
+"ticker": "MOLN",
+"company": "Molecular Partners AG",
+"date": "2026-12-05",
+"days": 8,
+"type": "Readout",
+"name": "MP0712 ([212Pb]Pb-MP0712, DLL3 Radio-DARPin) first-in-human Phase 1/2a study (initial\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/05/3396020/0/en/molecular-partners-to-present-on-dll3-targeting-radio-darpin-mp0712-at-2026-snmmi-theranostics-conference-and-naclc-2026.html"
+},
+{
 "ticker": "VSTM",
 "company": "Verastem, Inc.",
 "date": "2026-12-05",
-"days": 9,
+"days": 8,
 "type": "Readout",
 "name": "VS-7375 (oral KRAS G12D ON/OFF inhibitor) TARGET-D-101 (Phase 1/2) Updated Phase 1/2\u2026",
 "cap": null,
@@ -159,7 +257,7 @@
 "ticker": "HRMY",
 "company": "Harmony Biosciences Holdings, Inc.",
 "date": "2026-12-06",
-"days": 10,
+"days": 9,
 "type": "Readout",
 "name": "EPX-100 (clemizole) ARGUS, Phase 3 open-label extension updated preliminary OLE results\u2026",
 "cap": null,
@@ -171,7 +269,7 @@
 "ticker": "RAPP",
 "company": "Rapport Therapeutics, Inc.",
 "date": "2026-12-06",
-"days": 10,
+"days": 9,
 "type": "Readout",
 "name": "RAP-219 Phase 2 open-label long-term safety trial new long-term open-label safety data\u2026",
 "cap": null,
@@ -183,7 +281,7 @@
 "ticker": "RAPP",
 "company": "Rapport Therapeutics, Inc.",
 "date": "2026-12-07",
-"days": 11,
+"days": 10,
 "type": "Readout",
 "name": "RAP-219 Phase 2a (RNS): seizure severity and seizure-burden analyses Two Phase 2a\u2026",
 "cap": null,
@@ -195,7 +293,7 @@
 "ticker": "STOK",
 "company": "Stoke Therapeutics, Inc.",
 "date": "2026-12-07",
-"days": 11,
+"days": 10,
 "type": "Readout",
 "name": "zorevunersen Phase 1/2a studies and open-label extensions long-term results through 4\u2026",
 "cap": null,
@@ -207,7 +305,7 @@
 "ticker": "BCTX",
 "company": "BriaCell Therapeutics Corp.",
 "date": "2026-12-09",
-"days": 13,
+"days": 12,
 "type": "Readout",
 "name": "Bria-IMT Bria-ABC, Phase 3 PD-L1 CPS and TMB exploratory correlates of overall survival,\u2026",
 "cap": null,
@@ -219,7 +317,7 @@
 "ticker": "NVS",
 "company": "Novartis Ag",
 "date": "2026-12-09",
-"days": 13,
+"days": 12,
 "type": "Readout",
 "name": "SNV4818 first-in-human Phase 1/2 study initial clinical results, SABCS late-breaking\u2026",
 "cap": null,
@@ -231,7 +329,7 @@
 "ticker": "OLMA",
 "company": "Olema Pharmaceuticals, Inc.",
 "date": "2026-12-09",
-"days": 13,
+"days": 12,
 "type": "Readout",
 "name": "OP-3136 (KAT6A/B inhibitor), monotherapy and combination Phase 1 data, SABCS poster\u2026",
 "cap": null,
@@ -243,7 +341,7 @@
 "ticker": "OLMA",
 "company": "Olema Pharmaceuticals, Inc.",
 "date": "2026-12-10",
-"days": 14,
+"days": 13,
 "type": "Readout",
 "name": "palazestrant (OP-1250) + everolimus Phase 1b/2 combination data, SABCS poster P4-13-28",
 "cap": null,
@@ -255,13 +353,49 @@
 "ticker": "RIGL",
 "company": "Rigel Pharmaceuticals, Inc.",
 "date": "2026-12-10",
-"days": 14,
+"days": 13,
 "type": "Readout",
 "name": "vepdegestrant (VEPPANU) VERITAC Phase 1/2 (Phase 2 expansion cohort) new data, SABCS\u2026",
 "cap": null,
 "runway": null,
 "median_move": null,
 "url": "https://www.prnewswire.com/news-releases/rigel-to-present-new-data-for-veppanu-vepdegestrant-in-patients-with-erher2--esr1-mutated-advanced-or-metastatic-breast-cancer-at-sabcs-2026-302948831.html"
+},
+{
+"ticker": "BCTX",
+"company": "BriaCell Therapeutics Corp.",
+"date": "2026-12-11",
+"days": 14,
+"type": "Readout",
+"name": "Bria-IMT Bria-ABC, Phase 3 prior checkpoint inhibitor exposure and clinical outcomes,\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.globenewswire.com/news-release/2026/11/24/3409117/0/en/briacell-to-present-five-clinical-posters-including-late-breaking-phase-3-biomarker-and-safety-findings-at-sabcs-2026.html"
+},
+{
+"ticker": "LLY",
+"company": "ELI LILLY & Co",
+"date": "2026-12-11",
+"days": 14,
+"type": "Readout",
+"name": "imlunestrant EMBER-3, Phase 3 final overall survival, SABCS general session GS3-1",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://www.prnewswire.com/news-releases/lilly-highlights-strength-of-breast-cancer-portfolio-with-new-data-across-validated-drivers-of-hormone-receptor-positive-disease-at-the-2026-san-antonio-breast-cancer-symposium-302948353.html"
+},
+{
+"ticker": "OLMA",
+"company": "Olema Pharmaceuticals, Inc.",
+"date": "2026-12-11",
+"days": 14,
+"type": "Readout",
+"name": "palazestrant (OP-1250) + atirmociclib Phase 1b combination data, SABCS poster spotlight\u2026",
+"cap": null,
+"runway": null,
+"median_move": null,
+"url": "https://ir.olema.com/news-releases/news-release-details/olema-oncology-present-combination-data-palazestrant-and-op-3136"
 }
 ],
 "scorecard": [],
